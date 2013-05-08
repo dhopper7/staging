@@ -90,7 +90,7 @@ $(function() {
 
 <table>
 <tr>
-<td>Date:</td>
+<td>Game Date:</td>
 <td><input name="Today" id="datepicker" value="<?php echo date('m/d/Y',strtotime($setDate)) ?>"/></td>
 
 <?php

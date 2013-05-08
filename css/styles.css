@@ -307,7 +307,11 @@ body {
 /*--------------------End Contacts Section--------------------*/
 
 
-
+.clientName {
+    font-size: 45px;
+    padding: 0 0 12px;
+    position: relative;
+}
 
 
 .clearer {

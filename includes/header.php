@@ -17,6 +17,7 @@
 <div class="ccm-spacer"> </div>
 </div>
         <div id="header-right">
+        <div class="clientName">Rainmaker Casino</div>
           	<ul class="user-info">
         		<li class="nav-selected"><?php echo $user ?></li>
     			<li class="nav-selected"><?php echo date("F d, Y") ?></li>
