@@ -37,15 +37,28 @@ while($row = mysqli_fetch_object($res)) {
 
 
 
-function buildVirtualStructure($path) {
-	$testArray = array();
-	foreach (new DirectoryIterator("\\\\enas11\\test\\\\Rainmaker\\") as $fileInfo) {
+function buildVirtualStructure($path, $currentArray = array(), $inside = false) {
+	$testArray = $currentArray;
+	if(!is_dir($path)) {
+		return '';
+	}
+	foreach (new DirectoryIterator($path) as $fileInfo) {
+		$explode = explode('.',$fileInfo->getFilename());
 		if($fileInfo->isDot()) continue;
 		if(($fileInfo->isFile()) && ($fileInfo->getExtension() == "pdf")){
 			$testArray[] = $fileInfo->getPathName();
+		} elseif($fileInfo->isDir() && !$fileInfo->isDot() && $explode[0] != '') {
+			//echo $fileInfo->getPathName() . "<br />";
+			buildVirtualStructure($fileInfo->getPathName(),$testArray,true);
 		}
 	}
-	
+	if($inside) {
+		//echo 1;
+		return '';
+	}
+	//echo "<pre>";
+	//print_r($testArray);
+	//echo "</pre>";
 	$virtualStructure = array();
 	$yearCounter = array();
 	$unsortedStructure = array();
@@ -177,7 +190,7 @@ function printArrayAsList($array, $favorites, $stopLoop = 0) {
 	foreach($array as $name => $parent) {
 		$filesInCategory = false;
 		foreach($parent as $child) {
-			if($child['access'] == "F") {
+			if($child['access'] != "F") {
 				$lowerStructure = getDirectoryContents('\\\\enas11\\ClientSites\\Demo\\Rainmaker Casino Demo\\' . $child['path']);
 				if($lowerStructure != "") {
 					$filesInCategory = true;
@@ -197,7 +210,7 @@ function printArrayAsList($array, $favorites, $stopLoop = 0) {
 			$data .= "<ul>\n";
 			foreach($parent as $child) {
 				
-					if($child['access'] == "F") {
+					if($child['access'] != "F") {
 						$lowerStructure = getDirectoryContents('\\\\enas11\\ClientSites\\Demo\\Rainmaker Casino Demo\\' . $child['path']);
 						if($lowerStructure != "") {
 							$data .= "<li>\n";

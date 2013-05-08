@@ -8,8 +8,6 @@
         	</div>
 <div id="navigation">
 <ul class="nav-header">
-	<li class="nav-selected"><a href="/">Home</a>
-	</li>
     <li class="nav-selected"><a href="#charts">Charts</a></li>
     <li class="nav-selected"><a href="#reports">Reports</a></li>
     <li class="nav-selected"><a href="#contacts">Contacts</a></li>
