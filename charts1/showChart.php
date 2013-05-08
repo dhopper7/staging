@@ -9,6 +9,9 @@ if($info[0] > 760) {
 	$height = 800;
 }
 ?>
+<div class="printBtn" style="text-align:center;">
 <a href="getPdf.php?path=<?php echo str_replace('png','pdf',$_GET['file']); ?>">Print</a><br />
+</div>
+<div class="imgShow" style="text-align:center;">
 <img src="getImage.php?file=<?php echo $_GET['file']; ?>" height="<?php echo $height; ?>" width="<?php echo $width; ?>" />
-
+</div>

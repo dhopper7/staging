@@ -1,4 +1,13 @@
 <?php
+
+function negativesToPara($string) {
+	if(substr($string,0,1) == "-") {
+		return "(" . substr($string,1) . ")";
+	} else {
+		return $string;
+	}
+}
+
 error_reporting(E_ALL ^ E_NOTICE);
 $mysqli = new mysqli("localhost", "root", "Dapp3rDan1", "portal");
 if ($mysqli->connect_errno) {
@@ -81,38 +90,70 @@ $(function() {
 
 <table>
 <tr>
-<td>Date:</td>
+<td>Game Date:</td>
 <td><input name="Today" id="datepicker" value="<?php echo date('m/d/Y',strtotime($setDate)) ?>"/></td>
 
 <?php
-$mysql_query = 'SELECT * FROM flash_template WHERE Today = "'.$setDate.'"';
+$mysql_query = 'SELECT Revenue_Type, Today_Win, LY_Win, MTD_Win, MTDPM_Win, MTDPY_Win, YTD_Win, YTDPY_Win FROM flash_template WHERE Today = "'.$setDate.'"';
 $result = $mysqli->query($mysql_query);
+
 if($result->num_rows > 0){
+	
+$resultArray = array();
+$hasDataArray = array();
+$hasDataArray[0] = false;
+$hasDataArray[1] = false;
+$hasDataArray[2] = false;
+$hasDataArray[3] = false;
+$hasDataArray[4] = false;
+$hasDataArray[5] = false;
+$hasDataArray[6] = false;
+$hasDataArray[7] = false;
+$numberOfFilledFields = 0;
+
+
+while($row = mysqli_fetch_object($result)){
+	$resultArray[] = $row;
+	$i = 0;
+	foreach($row as $field) {
+		if($field != "") {
+			$hasDataArray[$i] = true;
+		}
+		$i++;
+	}
+}
+
+foreach($hasDataArray as $hasdata) {
+	if($hasdata) {
+		$numberOfFilledFields++;
+	}
+}
+$widthOfCols = 950 / $numberOfFilledFields;
 ?>
 
 <table width="950px" border="1" class="flashTable">
 	<tr>
-    	<th width="118.75px">Revenue Type</th>
-        <th width="118.75px">Win</th>
-        <th width="118.75px">Last Year Win</th>
-        <th width="118.75px">MTD</th>
-        <th width="118.75px">Previous MTD</th>
-        <th width="118.75px">Previous Year MTD</th>
-        <th width="118.75px">YTD</th>
-        <th width="118.75px">Previous YTD</th>
+    	<?php if($hasDataArray[0]) { ?><th width="<?php echo $widthOfCols; ?>px">Revenue Type</th><?php } ?>
+        <?php if($hasDataArray[1]) { ?><th width="<?php echo $widthOfCols; ?>px">Win</th><?php } ?>
+        <?php if($hasDataArray[2]) { ?><th width="<?php echo $widthOfCols; ?>px">Last Year Win</th><?php } ?>
+        <?php if($hasDataArray[3]) { ?><th width="<?php echo $widthOfCols; ?>px">MTD</th><?php } ?>
+        <?php if($hasDataArray[4]) { ?><th width="<?php echo $widthOfCols; ?>px">Previous MTD</th><?php } ?>
+        <?php if($hasDataArray[5]) { ?><th width="<?php echo $widthOfCols; ?>px">Previous Year MTD</th><?php } ?>
+        <?php if($hasDataArray[6]) { ?><th width="<?php echo $widthOfCols; ?>px">YTD</th><?php } ?>
+        <?php if($hasDataArray[7]) { ?><th width="<?php echo $widthOfCols; ?>px">Previous YTD</th><?php } ?>
     </tr>
 <?php
-	while($row = mysqli_fetch_object($result)){
+	foreach($resultArray as $row) {
 ?>
     <tr>
-    	<td class="flashText"><?php echo $row->Revenue_Type?></td>
-        <td class="flashNum"><?php echo $row->Today_Win?></td>
-        <td class="flashNum"><?php echo $row->LY_Win?></td>
-        <td class="flashNum"><?php echo $row->MTD_Win?></td>
-        <td class="flashNum"><?php echo $row->MTDPM_Win?></td>
-        <td class="flashNum"><?php echo $row->MTDPY_Win?></td>
-        <td class="flashNum"><?php echo $row->YTD_Win?></td>
-        <td class="flashNum"><?php echo $row->YTDPY_Win?></td>
+    	<?php if($hasDataArray[0]) { ?><td class="flashText"><?php echo $row->Revenue_Type; ?></td><?php } ?>
+        <?php if($hasDataArray[1]) { ?><td class="flashNum"><?php echo negativesToPara($row->Today_Win); ?></td><?php } ?>
+        <?php if($hasDataArray[2]) { ?><td class="flashNum"><?php echo negativesToPara($row->LY_Win); ?></td><?php } ?>
+        <?php if($hasDataArray[3]) { ?><td class="flashNum"><?php echo negativesToPara($row->MTD_Win); ?></td><?php } ?>
+        <?php if($hasDataArray[4]) { ?><td class="flashNum"><?php echo negativesToPara($row->MTDPM_Win);?></td><?php } ?>
+        <?php if($hasDataArray[5]) { ?><td class="flashNum"><?php echo negativesToPara($row->MTDPY_Win); ?></td><?php } ?>
+        <?php if($hasDataArray[6]) { ?> <td class="flashNum"><?php echo negativesToPara($row->YTD_Win); ?></td><?php } ?>
+        <?php if($hasDataArray[7]) { ?><td class="flashNum"><?php echo negativesToPara($row->YTDPY_Win); ?></td><?php } ?>
     </tr>
 <?php
 }

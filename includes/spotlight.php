@@ -196,8 +196,10 @@ if($currentRow['!ows_Game_Date'] != "") { ?>
     </tr>
     <tr>
     	<td>
+        	<?php if(@$currentRow['!ows_Closed'] != 1) { ?>
         	<span style="float: left;">Last Closed:</span> 
             <span style="border: 1px #000 solid; width: 150px; display: block; float: left; text-align: center;"><?php echo $lastClosed; ?></span>
+            <?php } ?>
         </td>
     </tr>
 </table>

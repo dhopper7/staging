@@ -1,7 +1,7 @@
 <div id="upper-section" class="box-content">
 <div id="tabs"">
 <ul>
-<li><a href="#tabs-1">Flash Template</a></li>
+<li><a href="#tabs-1">Flash Report</a></li>
 <li><a href="#tabs-2">Spotlight</a></li>
 <li><a href="#tabs-3">AP Approval</a></li>
 <li><a href="#tabs-4">File Transfer</a></li>

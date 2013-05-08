@@ -33,7 +33,7 @@ if($result->num_rows > 0){
 				//$fileNamexp = explode(".", $fileNames[$i]);
 				//if($fileNamexp[1] == "fld"){
 				
-				if($fileTypes[$i] == "R") {
+				if($fileTypes[$i] != "R") {
 					
 					$folderpath = $filePaths[$i] . "\\" . $fileNamexp[0];
 					$folderpath = urlencode($folderpath);

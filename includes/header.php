@@ -8,8 +8,6 @@
         	</div>
 <div id="navigation">
 <ul class="nav-header">
-	<li class="nav-selected"><a href="/">Home</a>
-	</li>
     <li class="nav-selected"><a href="#charts">Charts</a></li>
     <li class="nav-selected"><a href="#reports">Reports</a></li>
     <li class="nav-selected"><a href="#contacts">Contacts</a></li>
@@ -19,6 +17,7 @@
 <div class="ccm-spacer"> </div>
 </div>
         <div id="header-right">
+        <div class="clientName">Rainmaker Casino</div>
           	<ul class="user-info">
         		<li class="nav-selected"><?php echo $user ?></li>
     			<li class="nav-selected"><?php echo date("F d, Y") ?></li>
