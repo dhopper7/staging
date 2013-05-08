@@ -1,0 +1,64 @@
+Exclusions,Description/Naming Convention,Report Type,Standard,Department,Relative Path,Class
+,Inv (VENDOR) MMDDYY,ADHOC,a,Accounts Payable,Finance/Accounts Payable/Approval Needed,2
+,Machine Master by Unit CAS MMDDYY,ADHOC,a,Compliance,Gaming Machines/Slot Admin/Machine Master,2
+,Machine Master by Vend CAS MMDDYY,ADHOC,a,Compliance,Gaming Machines/Slot Admin/Machine Master,2
+,Casino Name DOJ Registration YYYY,ADHOC,a,Compliance,Gaming Machines/DOJ Registrations/YYYY,2
+"7CL,FCC,LB1,LB2,GPC,KCM,KCS",Title 31 POA Casino Name,ADHOC,a,Compliance,Compliance/Admin,1
+FCC,Floor Plans CAS MMDDYY,ADHOC,a,Compliance,Gaming Machines/Slot Admin/Floor Plans,1
+"7CL, FCC, LB1, LB2, FWW, FWC, SFS, SFT, GPC",CAS EPHS Certification,ADHOC,b,Compliance,Compliance/ Admin,2
+,CTRLNMFNMMMDDYYCAS,ADHOC,c,Compliance,Compliance/Title 31 Reports/Currency Transaction Reports/YYYY/Month,2
+,SARLNMFNMMMDDYYCAS,ADHOC,c,Compliance,Compliance/Title 31 Reports/Suspicious Activity Reports/YYYY/Month,2
+,Lab Letter VENDOR Game Theme,ADHOC,d,Compliance,Gaming Machines/Slot Admin/Lab Letters/Vendor,2
+,Par Sheet VENDOR Game Theme,ADHOC,d,Compliance,Gaming Machines/Slot Admin/Par Sheets/Vendor,2
+,MACMMYYCAS,CAR,b,Compliance,Compliance/Title 31 Reports/Audit Checklists/Monthly Audit Checklists/YYYY,2
+,1042SProofMMYYCAS,CAR,b,Compliance,Compliance/Title 31 Reports/Proof Reports/1042-S Proof Reports/YYYY,2
+,1099ProofMMYYCAS,CAR,b,Compliance,Compliance/Title 31 Reports/Proof Reports/1099 Proof Reports/YYYY,2
+,CTLProofMMYYCAS,CAR,b,Compliance,Compliance/Title 31 Reports/Proof Reports/CTL Proof Reports/YYYY,2
+,W2GProofMMYYCAS,CAR,b,Compliance,Compliance/Title 31 Reports/Proof Reports/W-2G Proof Reports/YYYY,2
+,CUSCOL1042SMMDDYYCAS,CDA,a,Compliance,Compliance/Title 31 Reports/Foreign Patron Reports,2
+,FORPAT1042SMMDDYYCAS,CDA,a,Compliance,Compliance/Title 31 Reports/Foreign Patron Reports,2
+,UNVREPMMDDYYCAS,CDA,b,Compliance,Compliance/Title 31 Reports/Unverifiable Customer Information/YYYY,2
+,DACMMDDYYCAS,CDA,c,Compliance,Compliance/Title 31 Reports/Audit Checklists/Daily Audit Checklists/Year/Month,2
+,NIGC Payment MMYY,ADHOC,b,General Ledger,Finance/NIGC Payments,2
+"7CL, FCC, LB1, LB2, GPC, KCM, KCS",Budget MMYY,ADHOC,b,General Ledger,Finance/Financial Reports/Plans & Budgets,1
+,Ann Assessment MMYY,ADHOC,b,General Ledger,Finance/State Compact Fees/YYYY Fiscal,2
+"7CL, FCC, LB1, LB2, FWW, FWC, SFS, SFT, GPC, KCS",Dept Trend MMDDYY ,ADHOC,b,General Ledger,Finance/Financial Reports/Monthly Financial Statements/YYYY Fiscal,2
+,Cash Daily MMDDYY,CAR,a,General Ledger,Finance/Daily Reports/Cash Reports,1
+"LB1, LB2, FWW, FWC, SFT, GPC",Marketing Dept Report MMDDYY,CAR,a,General Ledger,Marketing/Reports,1
+,Net Win WEEKLY MMDDYY,CAR,a,General Ledger,Gaming Machines/Reports/Weekly Net Win Reports,1
+,Bankroll Verification MMDDYY,CAR,a,General Ledger,Vault_Cage/Bankroll Calculations,1
+,Financial Report MMDDYY,CAR,a,General Ledger,Finance/Financial Reports/Monthly Financial Statements/YYYY Fiscal,1
+"LB1, LB2, FWW, FWC, SFT, GPC, KCS",BJ PP Liability MMDDYY,CAR,a,General Ledger,Table_Card Games/Table Games,1
+,Compact Fee Report MMYY,CAR,a,General Ledger,Finance/State Compact Fees,1
+,Daily Comp Analyis MMDDYYYY,CDA,b,General Ledger,Finance/Daily Reports/Daily Financials/YYYY Fiscal,1
+"LB1, LB2, SFS, SFT",FB Revenue to Expenses MMDDYY,CDA,b,General Ledger,Food and Beverage/General Ledger Reports/YYYY Fiscal,2
+"LB1, LB2, SFS, SFT",FB Percentage to Revenue Report MMDDYY,CDA,b,General Ledger,Food and Beverage/General Ledger Reports/YYYY Fiscal,2
+,"""Type of Report"" YYYY",ADHOC,b,Other,Finance/Financial Reports/Audit Reports/YYYY Fiscal,2
+,Net Win DAILY MMDDYY,CAR,a,Revenue Audit,Gaming Machines/Reports/Net Win Analysis Reports,1
+"FWW, FWC, SFS, SFT, GPC, KCM, KCS",CASStatMMYYYY,CAR,a,Revenue Audit,Gaming Machines/Reports/Statistical Reports,1
+"7CL, LB1, LB2, FWW, FWC, SFS, SFT, GPC, KCM, KCS",Bingo Profitability MMDDYY,CAR,a,Revenue Audit,Bingo/Bingo Profitability,1
+"7CL, FCC, LB1, LB2, FWW, FWC, SFS, SFT, GPC",Tip Detail MMDDYY,CAR,b,Revenue Audit,Vault_Cage/Tip Reports,1
+,Cashier OS DETAIL MMDDYY,CDA,b,Revenue Audit,Vault_Cage/Cashier Reports,1
+,Cashier OS SUMMARY MMDDYY,CDA,b,Revenue Audit,Vault_Cage/Cashier Reports,1
+,Flash DAILY MMDDYY,CDA,b,Revenue Audit,Finance/Daily Reports/Daily Flash Reports,1
+"FWC, FWW, KCM, KCS, 7CL, FCC, LB1, LB2, SFS, SFT",Flash DAILY INPUT MMDDYY,CDA,b,Revenue Audit,Finance/Daily Reports/Daily Flash Reports,1
+"LB1, LB2, FWW, FWC, SFT, GPC, KCS",TG Daily Perf x Table MMDDYY,CDA,b,Revenue Audit,Table_Card Games/Table Games,1
+"LB1, LB2, FWW, FWC, SFT, GPC, KCS",TG Perf Analysis MMDDYY,CDA,b,Revenue Audit,Table_Card Games/Table Games,1
+"LB1, LB2, FWW, FWC, SFT, GPC, KCS",TG Monthly Perf Trend by Table MMDDYY,CDA,b,Revenue Audit,Table_Card Games/Table Games/YYYY Fiscal,2
+"7CL, LB1, LB2, FWW, FWC, SFS, SFT, GPC, KCM, KCS",WTW MMDDYY,CDA,b,Revenue Audit,Bingo/WTW Reports,2
+"LB1, LB2, FWW, FWC, GPC, KCM, KCS",Complimentary Items by Serial MMDDYY,CDA,b,Revenue Audit,Internal Audit/Complimentaries/YYYY Fiscal,2
+"LB1, LB2, FWW, FWC, GPC, KCM, KCS",Complimentary Items by Customer MMDDYY,CDA,b,Revenue Audit,Internal Audit/Complimentaries/YYYY Fiscal,2
+"LB1, LB2, FWW, FWC, GPC, KCM, KCS",Complimentary Items by Authorizer MMDDYY,CDA,b,Revenue Audit,Internal Audit/Complimentaries/YYYY Fiscal,2
+,VC Daily Audit MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Vault_Cage/YYYY Fiscal/Month,2
+"FWW, FWC, SFS, SFT, GPC",Cashier System Daily Audit MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Vault_Cage/YYYY Fiscal/Month,2
+,Daily BOH Audit Packet MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Machine Accounting/YYYY Fiscal/Month,2
+,Daily BOH Audit Packet MMDDYY X,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Machine Accounting/YYYY Fiscal/Month,2
+,SC Audit Checklist MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Soft Count/YYYY Fiscal/Month,2
+"LB1, LB2, FWW, FWC, SFT, GPC, KCS",BJ Daily Audit MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Table_Card Games/Table Games/YYYY Fiscal/Month,2
+"7CL, LB1, LB2, FWW, FWC, SFS, SFT, GPC, KCM, KCS",Bingo Audit Checklist MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Bingo/YYYY Fiscal/Month,2
+"LB1, LB2, FWW, FWC, GPC, KCM, KCS",Comp MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Complimentary/YYYY Fiscal/Month,2
+LB2,Promo MMDDYY,CDA,c,Revenue Audit,Internal Audit/Audit Checklists/Promotions/YYYY Fiscal/Month,2
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

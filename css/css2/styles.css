@@ -1,0 +1,3202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: #f4f5e8 url("http://finleycook.phase2hosting.com/themes/finleycook/images/body-bg.gif") repeat left top;
+  color: #515151;
+  line-height: 28px;
+}
+
+.clearer {
+  clear: both;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  color: #409ae8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  border-top: solid 4px #0283d0;
+  min-width: 980px;
+  overflow: hidden;
+}
+
+.box-content {
+  width: 960px;
+  margin: auto;
+  text-align: left;
+  padding: 0 10px;
+}
+
+#header {
+  padding: 14px 0 0px;
+}
+
+#logo {
+  border-right: solid 1px #81bdda;
+  padding: 0 26px 0 16px;
+}
+
+#navigation {
+  float: left;
+  padding: 15px 0 0 15px;
+}
+
+#navigation ul{list-style:none;}
+
+#navigation a {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #717171;
+  text-decoration: none;
+  line-height: 18px;
+  margin-bottom: 2px;
+}
+
+#navigation a:hover,
+#navigation a.active {
+  color: #ce151a;
+}
+
+#header-right {
+  float: right;
+  width: 400px;
+  text-align: left;
+}
+
+#top-links {
+  text-align: right;
+  height: 45px;
+  color: #6c6c6c;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#top-links a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+#top-links a:hover {
+  text-decoration: underline;
+}
+
+#services-nav-text-button {
+  display: inline-block;
+  color: #393939;
+  text-decoration: none;
+  font-size: 36px;
+  cursor:pointer;
+  float:right;
+}
+
+#services-nav-text-button:hover {
+  text-decoration: none;
+  color: ;
+}
+
+.services-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 68px;
+  height: 68px;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat 0 0;
+  margin-left: 15px;
+}
+
+.services-box {
+  background: #383835;
+  color: #fff;
+  position: relative;
+  -webkit-box-shadow: #888 0px 0px 25px;
+  -moz-box-shadow: #888 0px 0px 25px;
+  box-shadow: #888 0px 0px 25px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.services-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*---------Our Partners page------*/
+
+.partners-name { margin:0 auto; }
+.partners-image { margin:0 auto; float:left; }
+.partners-info { margin:0 auto; float:left; padding-left:25px; width:500px; }
+.partner { width: 960px; margin: auto; padding: 10px 10px; }
+
+
+/*---------header images------*/
+
+.services-list .service-image {
+  width:240px;
+  height:103px;
+  display:block;
+  overflow:hidden;
+}
+
+.services-list #bookkeeping_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_bookkeeping.jpg") right; }
+.services-list #bookkeeping_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_bookkeeping.jpg") left; }
+.services-list #tribal_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_tribal.jpg") right; }
+.services-list #tribal_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_tribal.jpg") left; }
+.services-list #software_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_software.jpg") right; }
+.services-list #software_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_software.jpg") left; }
+.services-list #tax_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_tax.jpg") right; }
+.services-list #tax_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_tax.jpg") left; }
+.services-list #consulting_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_consulting.jpg") right; }
+.services-list #consulting_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_consulting.jpg") left; }
+.services-list #casino_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_casino.jpg") right; }
+.services-list #casino_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_casino.jpg") left; }
+.services-list #audit_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_audit.jpg") right; }
+.services-list #audit_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_audit.jpg") left; }
+.services-list #og_img { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_og.jpg") right; }
+.services-list #og_img:hover { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/menu_og.jpg") left; }
+
+
+.services-box a:hover {
+  text-decoration: underline;
+}
+
+.services-box-top {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/services-box-top.gif") repeat-x left top;
+  height: 101px;
+}
+
+.services-box .box-title {
+  float: left;
+  line-height: 101px;
+  font-family: 'Times New Roman';
+  font-size: 48px;
+  font-weight: normal;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+.box-phone {
+  float: right;
+  padding: 25px 30px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4b9be4;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: right;
+}
+
+.box-phone .phone-number {
+  color: #fff;
+  font-family: 'Times New Roman';
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.services-list {
+  overflow: hidden;
+}
+
+.service-box {
+  width: 240px;
+  height: 160px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+}
+
+.service-box .service-image {
+  width: 240px;
+  height: 103px;
+  display: block;
+  overflow: hidden;
+}
+
+.service-box .service-title {
+  height: 57px;
+  line-height: 57px;
+  display: block;
+  text-align: center;
+  font-family: 'HelveticaNeue', Helvetica, Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-blue {
+  background: #0473b3 url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-blue-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #023d60;
+}
+
+.title-blue-dark {
+  background: #015688 url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-blue-dark-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #01253a;
+}
+
+.title-red {
+  background: #c6161b url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-red-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #710d10;
+}
+
+.title-yellow {
+  background: #989511 url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-yellow-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #515009;
+}
+
+.title-orange {
+  background: #cc7601 url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-orange-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #6a3e01;
+}
+
+.title-brown {
+  background: #844d02 url("http://finleycook.phase2hosting.com/themes/finleycook/images/title-brown-bg.gif") repeat-x left top;
+  text-shadow: 1px 1px #4a2b01;
+}
+
+.more-industries {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/more-industries-bg.gif") repeat left top;
+  padding: 20px 30px;
+  line-height: 26px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.more-industries a {
+  color: #a8a8a8;
+  text-decoration: none;
+  margin: 11px 11px 12px;
+}
+
+.more-industries a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.more-industries ul {
+  list-style:none;
+}
+
+.more-industries ul li {
+  float:left;
+}
+
+.more-industries td.industry-header {
+
+  width:110px;
+  border-right:1px #fff solid;
+}
+
+.blue {
+  color: #409deb;
+}
+
+.about-us {
+  padding: 40px 0 180px;
+}
+
+.about-us .about-us-title {
+  float: left;
+  width: 227px;
+  border-right: solid 1px #94948e;
+  font-family: 'Times New Roman';
+  font-size: 36px;
+  font-style: italic;
+  color: #1c1c1c;
+  line-height: 40px;
+  min-height: 120px;
+}
+
+.blue-button {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  background: #006dad url("http://finleycook.phase2hosting.com/themes/finleycook/images/blue-button-bg.gif") repeat-x left top;
+  line-height: 36px;
+  height: 42px;
+  padding: 0 40px;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: #111 0px 2px 5px;
+  -moz-box-shadow: #111 0px 2px 5px;
+  box-shadow: #111 0px 2px 5px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.blue-button:hover {
+  background-position: left -42px;
+  text-decoration: none;
+}
+
+.about-us .about-us-title .blue-button {
+  margin-top: 15px;
+}
+
+.about-us .about-us-text {
+  width: 700px;
+  float: right;
+  line-height: 36px;
+  font-size: 18px;
+  color: #686868;
+}
+
+.dotted-box-top {
+  background: #f1f2e4 url("http://finleycook.phase2hosting.com/themes/finleycook/images/dotted-box-top-bg.gif") repeat-x left top;
+}
+
+.dotted-box-bottom {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/dotted-box-bottom-bg.gif") repeat-x left bottom;
+}
+
+.video-row {
+  padding: 75px 0 50px;
+}
+
+.video-row .video-image {
+  float: left;
+  width: 550px;
+  margin-left: -10px;
+}
+
+.video-row .video-text {
+  float: right;
+  width: 390px;
+}
+
+.video-row-alt {
+  padding: 50px 0 100px;
+  float:left;
+}
+
+.video-row-alt .video-image {
+  float: left;
+  width: 550px;
+  margin-left: -10px;
+}
+
+.video-row-alt .video-text {
+  float: right;
+  width: 390px;
+}
+
+.title-arrow {
+  display: inline-block;
+  width: 56px;
+  height: 60px;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat 0 -70px;
+}
+
+.video-title .title-arrow {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+
+.video-title {
+  position: relative;
+  padding: 0 0 15px 77px;
+  min-height: 60px;
+  line-height: 36px;
+  font-size: 36px;
+  font-family: 'Times New Roman';
+  font-style: italic;
+  color: #1c1c1c;
+  border-bottom: solid 1px #dadada;
+  margin-bottom: 15px;
+}
+
+.video-row p {
+  padding-bottom: 16px;
+}
+
+.video-row a {
+  color: #afac11;
+}
+
+.video-row big {
+  font-size: 18px;
+}
+
+.dark-row {
+  background: #505050 url("http://finleycook.phase2hosting.com/themes/finleycook/images/dark-row-bg.gif") repeat left top;
+  color: #fff;
+}
+
+.dark-row-top-shadow {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/dark-row-top-shadow.gif") repeat-x left top;
+  padding: 60px 0 30px;
+}
+
+.dark-row a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.dark-row a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.black-box {
+  background: #2f2f2f url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat left top;
+  border: solid 2px #292929;
+  height:425px;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.black-box .black-box-content {
+  padding: 14px;
+}
+
+.black-box .box-title {
+  font-family: 'Times New Roman';
+  font-size: 30px;
+  font-style: italic;
+  float: left;
+  line-height: 32px;
+  padding-bottom: 15px;
+}
+
+.black-box .box-button {
+  float: right;
+}
+
+.agents-column {
+  width: 320px;
+  float: left;
+  padding-left: 10px;
+}
+
+.bottom-columns {
+  width: 546px;
+  float: right;
+}
+
+.bottom-columns .column {
+  width: 172px;
+  padding: 0 10px 45px 0;
+  font-weight: bold;
+  float: left;
+  line-height: 22px;
+}
+h2 { font-family:"Times New Roman", Times, serif; font-size:48px; font-style:italic; color:#a8a8a8; line-height:48px;
+font-weight:normal;}
+
+
+h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.separator {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/separator-bg.gif") repeat-x left center;
+  height: 50px;
+}
+
+.red-button {
+  display: inline-block;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ca1419 url("http://finleycook.phase2hosting.com/themes/finleycook/images/red-button-bg.gif") repeat-x left top;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 15px;
+  position: relative;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: #111 0px 2px 5px;
+  -moz-box-shadow: #111 0px 2px 5px;
+  box-shadow: #111 0px 2px 5px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.red-button:hover {
+  background-position: left -30px;
+}
+
+.black-box .slideshow-fpo {
+  margin-bottom: 10px;
+}
+
+.black-box .box-details {
+  line-height: 15px;
+  padding-left:7px;
+}
+
+.black-box .box-details a {
+  color: #19a1ff;
+}
+
+.black-box .box-details a:hover {
+  color: #fff;
+}
+
+.icon-email {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat 0 -142px;
+  display: inline-block;
+  width: 24px;
+  height: 15px;
+  /*vertical-align: top;*/
+  margin: 2px 10px 10px 0;
+  float: left;
+}
+
+.icon-phone {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat 0 -172px;
+  display: inline-block;
+  width: 24px;
+  height: 23px;
+  /*vertical-align: middle;*/
+  margin: 0px 10px 0 0;
+  float: left;
+}
+
+.golden {
+  color: #afac11;
+}
+.green { color:#afac11;}
+.orange {color:#e28200;}
+.red {color:#e7171d; }
+
+.contact-details {
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.left-side {
+  float: left;
+}
+
+.right-side {
+  float: right;
+}
+
+#footer {
+  background: #1a1a1a url("http://finleycook.phase2hosting.com/themes/finleycook/images/footer-bg.gif") repeat-x left top;
+  line-height: 16px;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-left {
+  float: left;
+  width: 450px;
+}
+
+.footer-right {
+  float: right;
+  width: 450px;
+  text-align: right;
+}
+
+.social-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 39px;
+  height: 39px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0;
+  text-indent: -999px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.icon-blog {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -30px -136px;
+}
+
+.icon-linked {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_footer.png") no-repeat -30px -136px;
+}
+
+.icon-twitter {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -30px -175px;
+}
+
+.icon-facebook {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -30px -214px;
+}
+
+.lights-row-1 {
+  background: #130f0d url("http://finleycook.phase2hosting.com/themes/finleycook/images/lights-row-1.jpg") no-repeat center bottom;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.lights-row-2 {
+  background: #3168db;
+  color: #fff;
+}
+
+.subnav {
+  background: #fff;
+  position: relative;
+  float: left;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-box-shadow: 1px 2px 4px #CCC;
+  border-radius: 0 0 5px 5px;
+  line-height: 21px;
+  padding: 12px 15px;
+  font-size: 14px;
+  color: #818080;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.subnav .section-title {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 10px;
+  border-right: solid 1px #979797;
+  margin-right: 8px;
+}
+
+.subnav .nav a {
+  display: inline-block;
+  vertical-align: top;
+  color: #818080;
+  text-decoration: none;
+  margin: 0 8px;
+}
+.subnav ul {display:inline-block;}
+.subnav ul li { display:inline;}
+.subnav ul li a {display:inline; float:left; text-decoration:none; color:#818080; margin:0 8px;}
+
+
+
+.section-top-button {
+  float: right;
+}
+
+.grey-round-button {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  height: 45px;
+  line-height: 45px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  background: #3d3d39;
+  padding: 0 17px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.arrow-right {
+  display: inline-block;
+  width: 23px;
+  height: 17px;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat 0 -208px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.video-text-column {
+  width: 455px;
+  float: left;
+  padding-top: 100px;
+  padding-left: 10px;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 46px;
+}
+
+.video-text-column .box-title,
+.row-title {
+  font-family: 'Times New Roman';
+  font-size: 48px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 52px;
+}
+
+.video-box {
+  padding-top: 30px;
+  float: right;
+  width: 450px;
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/video-quote.png") scroll 0 0;
+  height:270px;
+  margin-top:65px;
+  color:white;
+
+}
+
+.services-video-title {
+  text-align: center;
+  padding: 15px 0 10px;
+  font-family: 'Times New Roman';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.services-video-quotes ul {
+  list-style:none;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.services-video-quotes ul li {
+  list-style:none;
+}
+
+.row-title {
+  padding: 50px 0;
+}
+
+.text-column {
+  width: 435px;
+  padding: 0 10px;
+}
+
+.text-box {
+  padding-bottom: 50px;
+}
+
+.text-box p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.orange-row {
+  background: #714401 url("http://finleycook.phase2hosting.com/themes/finleycook/images/orange-row-bg.gif") repeat left top;
+  color: #fff;
+}
+
+.orange-row-top {
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/orange-row-2-bg.gif") repeat-x left top;
+}
+
+.center {
+  text-align: center;
+}
+
+.two-cols {
+  position: relative;
+  padding: 0 10px 70px;
+}
+
+.two-cols .col-left {
+  width: 410px;
+  float: left;
+}
+
+.two-cols .col-right {
+  width: 410px;
+  float: right;
+}
+
+.two-cols .col-separator {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  bottom: 90px;
+  border-left: solid 1px #744501;
+}
+
+.two-cols h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.grey-button {
+  display: inline-block;
+  color: #444444;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #afafaf url("http://finleycook.phase2hosting.com/themes/finleycook/images/grey-button-bg.gif") repeat-x left top;
+  line-height: 42px;
+  height: 42px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: #666 0px 0px 5px;
+  -moz-box-shadow: #666 0px 0px 5px;
+  box-shadow: #666 0px 0px 5px;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+.blue-button:hover {
+  background-position: left -42px;
+  text-decoration: none;
+}
+
+.wide-button {
+  display: block;
+  padding: 0 10px;
+}
+
+.two-cols p {
+  padding: 15px 5px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.grey-row {
+  background: #202020 url("http://finleycook.phase2hosting.com/themes/finleycook/images/grey-row-bg.gif") repeat-x left top;
+  color: #fff;
+}
+
+.event-row {
+  position: relative;
+  padding: 20px 0 20px 290px;
+}
+
+.event-row .event-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.event-row h3 {
+  padding-bottom: 0;
+}
+
+.event-row a {
+  color: #e28200;
+}
+
+.white-row {
+  background: #fff url("http://finleycook.phase2hosting.com/themes/finleycook/images/white-row-shadow.gif") repeat-x left bottom;
+  padding: 20px 0 90px;
+}
+
+.white-row .row-title {
+  color: #e28200;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #e3e3e3;
+  margin-bottom: 30px;
+}
+
+.icon-phone-big {
+  display: inline-block;
+  width: 57px;
+  height: 57px;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -75px 0;
+}
+
+.icon-email-big {
+  display: inline-block;
+  width: 66px;
+  height: 42px;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -135px 0;
+}
+
+.call-column {
+  width: 400px;
+  float: left;
+}
+
+.contact-column {
+  width: 410px;
+  float: left;
+  padding-top:10px;
+}
+
+.call-row {
+  border-bottom: solid 1px #dadada;
+  padding: 23px 0;
+}
+
+.contact-row {
+  padding: 10px 0;
+}
+
+.contact-text {
+  position: relative;
+  padding-left: 85px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8d8d8d;
+  line-height: 18px;
+  margin-bottom:10px;
+}
+
+.contact-text .icon-phone-big {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.contact-text .icon-email-big {
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+.text-input {
+  width: 163px;
+  padding: 14px 15px 10px;
+  height: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.submit-button {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ca7603 url("http://finleycook.phase2hosting.com/themes/finleycook/images/orange-button-bg.gif") repeat-x left top;
+  line-height: 42px;
+  height: 42px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: #999 0px 0px 10px;
+  -moz-box-shadow: #999 0px 0px 10px;
+  box-shadow: #999 0px 0px 10px;
+  border: none;
+  behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc);
+}
+
+
+
+
+
+.phone-number-big {
+  font-size: 55px;
+  font-weight: bold;
+  color: #e28200;
+  white-space: nowrap;
+  padding: 15px 0 25px;
+}
+
+/*-----------------Service Navigation Styles----------------*/
+#services-nav{
+  display:none;
+  margin-bottom: 32px;
+} 
+
+#services-nav-text-button{margin:20px 0 0 0;}
+#services-nav-text-button:hover{color:#5B9BEF;}
+#services-nav-button-container{position:relative; display:inline-block; margin: 12px 0 0 0;}
+#services-nav-button{
+  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/button-animation.png") no-repeat 0 0; 
+  width:68px; 
+  height:68px; 
+  position:relative;
+  float:right; 
+  overflow:hidden; 
+  display:inline-block;  
+  margin: 0 -5px 0 10px;
+  cursor:pointer;}
+#services-nav-button-bg{background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/button-shadown.png") no-repeat; width:68px; height:68px; position:absolute; display:none;}
+#services-nav-button.expanded{background-image: url("http://finleycook.phase2hosting.com/themes/finleycook/images/button-pushed.png")}
+#service-nav-spacer{height:22px;}
+
+
+
+/*-----------------Audit-----------------*/
+
+#audit {background:#F4F5E8 url("http://finleycook.phase2hosting.com/themes/finleycook/../images/body-bg.gif") repeat left top;}
+
+#audit .section-title {color:#4a9be6;}
+#audit .subnav a:hover {color:#4a9be6;}
+#audit .sub-nav-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 0 0 0 0;}
+#audit .banner-content-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 50px 0 0 0;}
+#audit .contact-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:80px; padding-top:1px;}
+#audit .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#audit .midcontent-area {float:left; display:inline-block; width:555px; height:359px; position:relative;}
+#audit .midcontent-area .image-shadow {position:relative; left:-6px; top:-20px; height:50px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/big-image-shadow.png") no-repeat; position:absolute; width:575px;}
+.audit-title {float:left; display:inline-block; width:370px; padding-left:115px;}
+.audit-title h2 { color:#4a9be6; font-size:31px; padding-bottom:5px;}
+.audit-title p {}
+.shadow-break { padding:55px 0px 45px 0px;}
+.secondary-rotator { padding-bottom:40px;}
+#audit .main-content-area{padding:0px 0px 60px 0px;}
+#audit .main-content-area h2{ font-size:33px; text-align:center; }
+#audit .main-content-area img{float:left; display:inline-block; width:300px;}
+#audit .main-content-area .rotator-content{float:left; display:inline-block; width:620px; padding-left:40px;}
+.rotator-content h3{color:#afac11; font-weight:bold; font-size:30px;}
+.rotator-content p{}
+#audit .icon-phone-big { display: inline-block; width: 57px; height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -75px 0;
+}
+#audit .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -135px 0;
+}
+
+#audit .industry-area{ background: #4a9be6 url("http://finleycook.phase2hosting.com/themes/finleycook/images/expertise_shadow_full.png") repeat-x;}
+
+#audit .top-contact { padding:60px 0; }
+#audit .expertise h4 { text-align:left; padding:40px 0 20px 85px; }
+
+
+/*-----------------Audit Inner-----------------*/
+
+#audit_inner {background:#F4F5E8 url("http://finleycook.phase2hosting.com/themes/finleycook/../images/body-bg.gif") repeat left top;}
+
+#audit_inner .section-title {color:#4a9be6;}
+#audit_inner .subnav a:hover {color:#4a9be6;}
+#audit_inner .subnav .nav a.nav-selected {color:#4a9be6;}
+#audit_inner .sub-nav-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 0 0 0 0;}
+#audit_inner .banner-content-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 50px 0 0 0;}
+#audit_inner .contact-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:80px; padding-top:1px;}
+#audit_inner .hardsell-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:25px; padding-top:45px;}
+#audit_inner .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#audit_inner .midcontent-area {float:left; display:inline-block; width:555px; height:359px; position:relative;}
+#audit_inner .midcontent-area .image-shadow {position:absoluote; left:-6px; top:340px; height:50px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/big-image-shadow.png") no-repeat; position:absolute; width:575px;}
+#audit_inner .audit-title {float:left; display:inline-block; width:370px; padding-left:33px;}
+#audit_inner .audit-title h2 { color:#4a9be6; font-size:40px; padding-bottom:16px;}
+#audit_inner .audit-title p {}
+#audit_inner .shadow-break { padding:0px 0px 45px 0px;}
+#audit_inner .secondary-rotator { padding-bottom:40px;}
+#audit_inner .main-content-area{padding:0px 0px 60px 0px;}
+#audit_inner .main-content-area h2{ font-size:46px; text-align:left; padding:60px 0 20px 0;}
+#audit_inner .main-content-area h3{ color: #ABABAB; }
+#audit_inner .main-content-area img{float:left; display:inline-block; width:300px;}
+#audit_inner .main-content-area .rotator-content{float:left; display:inline-block; width:620px; padding-left:40px;}
+#audit_inner .rotator-content h3{color:#afac11; font-weight:bold; font-size:30px;}
+#audit_inner .rotator-content p{}
+#audit_inner .icon-phone-big { display: inline-block; width: 57px; height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -75px 0;
+}
+#audit_inner .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -135px 0;
+}
+
+#audit_inner .industry-area{ background: #4a9be6 url("http://finleycook.phase2hosting.com/themes/finleycook/images/expertise_shadow_full.png") repeat-x;}
+
+#audit_inner .phone-number-big {color:#4a9be6;}
+
+
+
+/*---Generic Industry---*/
+.industry-area{ background: #000; height:357px; }
+.industry-area h4{ font-family:"Times New Roman", Times, serif; font-weight:normal; font-style:italic; color:#fff; font-size:34px; text-align:center; padding:28px 0px 20px 0px; }
+.industry-area ul{float:left; display:inline-block; list-style-type:none; padding-right:80px; padding-left:37px; padding-top:27px;}
+.industry-area ul li{padding-bottom:10px;}
+.industry-area ul li a{ list-style-type:none; text-decoration:none; color:#fff; line-height:32px; font-weight:bold; font-size:18px;}
+.industry-area ul li a:hover{color:#039;}
+.industry-area img{ padding:30px 0px 25px 60px;}
+
+
+/*---expertise----*/
+.expertise { background: #4a9be6 url("http://finleycook.phase2hosting.com/themes/finleycook/images/expertise_shadow_full.png") repeat-x; height:357px; }
+.expertise h4{ font-family:"Times New Roman", Times, serif; font-weight:normal; font-style:italic; color:#fff; font-size:34px; padding:40px 0px 20px 70px; }
+.expertise ul {float:left; display:inline-block; list-style-type:none; padding-right:80px; padding-left:5px; padding-top:45px;}
+.expertise ul li{padding-bottom:10px;}
+.expertise ul li a{ list-style-type:none; text-decoration:none; color:#fff; line-height:32px; font-weight:bold; font-size:18px;}
+.expertise ul li a:hover{color:#000000;}
+.expertise img { padding:15px 0px 25px 0px;}
+
+
+
+#sticky-note { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sticky_note_bg.png") no-repeat; width:960px; height:253px; margin-top:60px; margin-bottom:10px;}
+#sticky-note h2 { width:300px; padding:50px 20px 0px 35px; font-size:40px; float:left; display:inline-block;}
+#comparison {float:left; display:inline-block; padding:56px 0px 0px 28px; line-height:55px;}
+#sticky-note .left {float:left; display:inline-block; width:240px; text-align:center;}
+#sticky-note .left p{ font-size:18px; font-weight:normal; color:#afac11; }
+#sticky-note .left h4{font-size:40px; font-weight:bold; text-align:center; color:#afac11; padding: 15px 0px;}
+#sticky-note .left span{font-weight:bold; text-align:center; color:#afac11; font-size:18px;}
+#sticky-note h3{display:inline-block;}
+#sticky-note .right {float:right; display:inline-block; width:240px; text-align:center; color:#e7171d;}
+#sticky-note .right p {  font-size:18px; font-weight:normal; color:#e7171d;}
+#sticky-note .right h4 {color:#e7171d; font-size:40px; font-weight:bold; text-align:center;  padding: 15px 0px;}
+#sticky-note .right span {color:#e7171d; font-weight:bold; text-align:center; font-size:18px;}
+#sticky-note #comparison h3 { font-size:40px; float:left; display:inline-block; font-family:"Times New Roman", Times, serif; padding-top:60px; padding-right:12px; padding-left:12px; color:#A8A8A8; font-weight:normal; font-style:italic;}
+
+#audit .phone-number-big {color:#4a9be6;}
+#audit .video-text-column .box-title, .row-title {color:#4a9be6;}
+#audit .submit-button{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top; }
+
+
+/*------------------Software------------------------*/
+
+
+#software #software-inner-main ul { margin-left:50px; }
+#software #inner .white-bottom h2 { text-align:left; padding:60px 0 20px 0; }
+#software #inner .white-bottom h3 { color:#ababab; }
+#software .section-title {color:#afac11;}
+.white-rotator{ background:#fff; position:relative; height: 494px; }
+#software .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#software .bottom-shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/soft_shadow.png") repeat-x; height:52px; position:absolute; left:0; bottom:0px; width:100%; z-index:100;}
+.software-rotator {padding-top:50px; position:relative;}
+span.green { color:#afac11; font-weight:bold;}
+span.orange {color:#e28200; font-weight:bold;}
+span.red {color:#e7171d; font-weight:bold; }
+.software-rotator h2 {width:382px; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:normal;font-size:24px; line-height:38px; font-style:normal; position:absolute; padding: 15px 0px 0px 10px;}
+.software-rotator img {float:right; display:inline-block; position:absolute; right:-50px; top:30px;}
+
+.world-class{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/software_noise_bg.jpg") repeat; position:relative; }
+.world-class h2{ padding:45px 0px 0px 0px; display:inline-block; color:#afac11; font-size:47px; line-height:54px;}
+.world-class img{float:right;}
+.world-class .soft-content { float:left; display:inline-block; width:575px; }
+.soft-content img { height:65px; }
+.soft-content p { padding-top:50px; font-size:18px; line-height:38px; }
+
+.dark-reasons { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/soft_dark_bg.jpg") repeat-x; height:560px;}
+.dark-reasons h2 { font-family: Arial, Helvetica, sans-serif;  color:#fff; font-size:45px; padding:45px 0px 80px; font-style:normal;  }
+.dark-reasons .box-content div {float:left; display:inline-block;}
+.dark-reasons .box-content .left {float:left; display:inline-block; width:441px; padding-right:78px;}
+.dark-reasons .box-content .right {float:left; display:inline-block; width:441px;}
+.dark-reasons .box-content div h1 {font-size:180px; line-height:100px; padding:0px 20px 94px 0px; float:left; display:inline-block;}
+.dark-reasons h3 { line-height:0px; vertical-align:top; display:inline-block; font-size:20px; text-transform:none;  }
+.dark-reasons p { font-size:14px; color:#fff; padding-top:0px;}
+
+.white-bottom { background-color:#fff; position:relative; margin:0px 0px 0px 0px; padding-bottom:65px;}
+.white-bottom h2 { font-size:46px; padding:40px 0px 55px; text-align:center;}
+.blue-erp, .orange-peachtree, .green-crp { float:left; display:inline-block; width:275px;}
+.white-bottom  a.monitor {  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/software_monitor.jpg") no-repeat;  padding: 17px 12px 210px 12px;}
+.orange-peachtree, .blue-erp { padding-right:67px; }
+.orange-peachtree h3, .blue-erp h3, .green-crp h3 { font-size:24px; font-weight:bold; padding-top:110px; text-transform:none; padding-bottom:2s0px;}
+.orange-peachtree p, .blue-erp p, .green-crp p { color:#a8a8a8; padding-bottom:30px;}
+.orange-peachtree a.button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/soft_orange_btn.png") no-repeat; }
+.green-crp a.button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/soft_green_btn.png") no-repeat;}
+.blue-erp a.button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/soft_blue_btn.png") no-repeat;}
+.orange-peachtree a.button, .blue-erp a.button, .green-crp a.button {padding: 10px 85px 10px 84px; -moz-box-shadow: 1px 2px 10px #666; font-weight:bold; font-size:18px; color:#fff;}
+.yellow-bg {background-color:#ffffe2; position:relative; padding-bottom:60px;}
+
+#software .row-title { color:#afac11; }
+#software .phone-number-big { color:#afac11; }
+#software .icon-phone-big { display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightgreen.png") no-repeat -75px 0;
+}
+#software .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightgreen.png") no-repeat -135px 0;
+}
+#software .submit-button { background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightgreen-button-bg.jpg") repeat-x;}
+
+
+/*---------------Taxes ad----------------*/
+
+.tax-ad-button { width:600px; float:left; text-align:center; }
+
+.taxes-ad { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_ad_bg.jpg") repeat-x; height:398px; }
+.taxes-ad h3 { font-size:30px; line-height:40px; text-transform:none; padding:40px 0px;}
+.taxes-ad .box-content { position:relative;}
+.taxes-ad .content { float:left; display:inline-block; width:750px; }
+.taxes-ad .content .bottom{ flolat:left; width:300px; display:inline-block; padding-top:20px; padding-right:50px;}
+.taxes-ad .box-content img {position:absolute; right:-10px; top:-30px; }
+.taxes-ad .blue-button-taxes {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_blue_btn.png") no-repeat; padding: 20px 68px; -moz-box-shadow: 1px 2px 10px #666; font-weight:bold; font-size:21px; color:#fff;}
+.taxes-ad .green-button-personal {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_green_btn.png") no-repeat; padding: 20px 68px; -moz-box-shadow: 1px 2px 10px #666; font-weight:bold; font-size:21px; color:#fff;}
+.taxes-ad .content p.header { text-align:center; color:#005E95; font-size:18px; font-style:italic; font-family:"Times New Roman", Times, serif; padding-top:30px; line-height:40px; width:610px; padding-left:5px;}
+.taxes-ad .content p { color:#ffffff; font-size:18px; font-style:italic; font-family:"Times New Roman", Times, serif; padding-top:30px; }
+
+.taxes-ad-alt { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_ad_bg.jpg") repeat-x; height:auto; }
+.taxes-ad-alt h3 { font-size:30px; line-height:40px; text-transform:none; padding:40px 0px;}
+.taxes-ad-alt .box-content { position:relative;}
+.taxes-ad-alt .content { float:left; display:inline-block; width:750px; }
+.taxes-ad-alt .content div { flolat:left; width:300px; display:inline-block; padding-top:20px; padding-right:50px;}
+.taxes-ad-alt .box-content img {position:absolute; right:-10px; top:-30px; }
+.taxes-ad-alt .blue-button-taxes {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_blue_btn.png") no-repeat; padding: 20px 68px; -moz-box-shadow: 1px 2px 10px #666; font-weight:bold; font-size:21px; color:#fff;}
+.taxes-ad-alt .green-button-personal {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tax_green_btn.png") no-repeat; padding: 20px 68px; -moz-box-shadow: 1px 2px 10px #666; font-weight:bold; font-size:21px; color:#fff;}
+.taxes-ad-alt p { text-align:center; color:#fff; font-size:18px; font-style:italic; font-family:"Times New Roman", Times, serif; padding-top:30px; width:280px;}
+
+/*----------Tax--------*/
+
+.dark-blue { color:#005e95;}
+#tax .section-title { color:#005e95;}
+#tax .taxes-ad {background:none;}
+#tax .taxes-ad-alt {background:none;}
+#tax .baby-row {padding-bottom:49px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative;}
+#tax .baby-row-inner {padding-bottom:49px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative;}
+
+#tax .baby-row h2{ text-align:left; color:#005e95; padding-top:70px; }
+#tax .taxes-ad h3 { font-size:14px; line-height:22px; text-transform:uppercase; padding: 0px 0px 0px 10px; color:#005e95; font-weight: bold;}
+#tax .taxes-ad-alt h3 { font-size:14px; line-height:22px; text-transform:uppercase; padding: 0px 0px 0px 10px; color:#005e95; font-weight: bold;}
+#tax .box-content .taxes-ad { position:relative;}
+#tax .box-content .taxes-ad img {position:absolute; right:-50px; top:19px; }
+#tax .box-content .taxes-ad-alt { position:relative;}
+#tax .box-content .taxes-ad-alt img {position:absolute; right:-50px; top:19px; }
+#tax .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#tax .taxes-ad-alt p { text-align:left; color:#a8a8a8; font-size:20px; line-height:40px; padding-top:30px; font-style:italic; font-family:"Times New Roman", Times, serif; width:600px; padding-bottom:15px;}
+#tax .taxes-ad-alt #team p { text-align:left; color:#a8a8a8; font-size:14px; line-height:28px; padding: 0px; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal;}
+
+
+#tax .expertise { background-color:#005e95; }
+#tax .baby-row-inner h3 { font-size:36px; font-weight:bold; padding:60px 0px 30px 30px; text-transform:none;}
+#tax .baby-row-inner p { padding:20px 0 0 15px; width:860px; }
+#tax .baby-row-inner ul { padding-left:45px; width:160px; }
+#tax .baby-row-inner ul li { padding-top:5px; }
+.note-bg { float:left; display:inline-block; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sticky_note.png") no-repeat; width:394px; height:360px; }
+.note-bg h4 {padding-left:40px; padding-top:35px; width:290px; font-size:16px; }
+.note-bg p { padding:0px 30px 0px 30px;}
+.note-bg a { font-size:18px; font-style:italic; padding-left:30px; padding-top:5px; font-family:"Times New Roman", Times, serif;}
+.right-info { display:inline-block; float:left;}
+.right-info .info{ float:left; display:inline-block; width:250px; padding:15px 0px 0px 25px}
+.right-info a {font-size:18px; font-style:italic; padding-top:5px; font-family:"Times New Roman", Times, serif;}
+#tax .row-title, #tax .phone-number-big { color:#005e95;}
+#tax .icon-phone-big { display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_darkblue.png") no-repeat -75px 0;
+}
+#tax .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_darkblue.png") no-repeat -135px 0;
+}
+#tax .submit-button{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/darkblue-button-bg.jpg") repeat-x left top; }
+
+.software-ad { background-color:#e28200; position:relative; }
+.software-ad .left-content { float:left; display:inline-block; width:640px; padding-right:30px; padding-bottom:50px; }
+.software-ad h3 { text-transform:none; font-size:38px; padding:40px 0px 10px 0px; }
+.software-ad p { color:#fff; font-size:16px; padding:15px 0px 0px 0px; line-height:32px;  }
+.software-ad a img {float:left; display:inline-block; padding-top:78px; }
+.software-ad .shadow { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%; }
+
+
+#tax .contact-column { padding-top:20px; }
+#tax .contact-info { padding-top:20px; }
+
+
+/*--------Bookkeeping--------*/
+
+#bookkeeping .section-title {color:#4a9be6;}
+#bookkeeping .subnav a:hover {color:#4a9be6;}
+#bookkeeping .sub-nav-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 0 0 0 0;}
+#bookkeeping .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#bookkeeping .baby-row {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 50px 0 0 0; padding-bottom:20px;}
+#bookkeeping .baby-row-inner {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:60px;}
+.bookkeeping-rotator {margin:0px 0px 40px; position:relative; width:960px; height:425px;}
+.bookkeepig-rotator img, .bookkeeping-rotator h2 { position:absolute; width:960px; top:0; left:0;}
+.bookkeeping-rotator h2 { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/bk_banner_overlay.png") repeat-x; height:97px; z-index:1000; line-height:97px; text-align:center; color:#fff; font-size:44px;}
+.bookkeeping-title h2 { width:960px; text-align:center; display:inline-block; color:#4a9be6; line-height:54px; padding-bottom:30px; }
+.bookkeeping-title h4 { text-align:center; padding-top:35px; }
+.bookkeeping-title p { float:left; display:inline-block; line-height:34px; padding-top:5px;}
+.bk-assistance { text-align:center; padding-bottom:20px; padding-top:10px;}
+.bk-assistance .arrow {display:inline-block; margin-top:15px;}
+.bk-assistance h2 { display:inline-block; padding:40px 20px;}
+.bk-assistance h3 { text-align:center; font-size:22px; color:#4a9be6; text-transform:none; padding:20px 30px; line-height:30px;}
+.assistance-left img, .assistance-right img{   -moz-box-shadow: 1px 2px 10px #CCC; behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc); }
+.assistance-right h3 {color:#afac11}
+.assistance-left { float:left; display:inline-block; width:480px;}
+.assistance-right { float:left; display:inline-block; width:480px;}
+.assistance-left .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/blue-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+.assistance-right .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightgreen-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+#bookkeeping .icon-phone-big { display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -75px 0;
+}
+#bookkeeping .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -135px 0;
+}
+#bookkeeping .contact-row .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top;  }
+#bookkeeping .phone-number-big { color:#4a9be6; }
+#bookkeeping .row-title { font-size:44px;}
+
+
+
+
+
+/*--------Blank Inner--------*/
+
+#blank-inner .section-title {color:#4a9be6;}
+#blank-inner .subnav a:hover {color:#4a9be6;}
+#blank-inner .subnav a.nav-selected {color:#4a9be6;}
+#blank-inner .sub-nav-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 0 0 0 0;}
+#blank-inner .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#blank-inner .baby-row {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 50px 0 0 0; padding-bottom:60px;}
+#blank-inner .baby-row-inner {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:60px;}
+#blank-inner .bookkeeping-rotator {margin:0px 0px 40px; position:relative; width:960px; height:425px;}
+#blank-inner .bookkeepig-rotator img, .bookkeeping-rotator h2 { position:absolute; width:960px; top:0; left:0;}
+#blank-inner .bookkeeping-rotator h2 { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/bk_banner_overlay.png") repeat-x; height:97px; z-index:1000; line-height:97px; text-align:center; color:#fff; font-size:44px;}
+#blank-inner .bookkeeping-title h2 { width:960px; float:left; display:inline-block; color:#4a9be6; line-height:54px; font-size:36px; padding:25px 0;}
+#blank-inner .bookkeeping-title h4 { padding:0px 20px; }
+#blank-inner .bookkeeping-title p { float:left; display:inline-block; padding: 5px 20px; line-height:34px; width: 880px; }
+#blank-inner .bk-assistance { text-align:center; padding-bottom:20px; padding-top:10px;}
+#blank-inner .bk-assistance .arrow {display:inline-block; margin-top:55px;}
+#blank-inner .bk-assistance h2 { display:inline-block; padding:40px 20px; width: 960px;}
+#blank-inner .bk-assistance h3 { text-align:center; font-size:22px; color:#4a9be6; text-transform:none; padding:20px 30px; line-height:30px;}
+#blank-inner .assistance-left img, .assistance-right img{   -moz-box-shadow: 1px 2px 10px #CCC; behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc); }
+#blank-inner .assistance-right h3 {color:#afac11}
+#blank-inner .assistance-left { float:left; display:inline-block; width:430px; padding-right:25px; }
+#blank-inner .assistance-right { float:left; display:inline-block; width:480px; padding-left:25px; }
+#blank-inner .assistance-left .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/blue-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+#blank-inner .assistance-right .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightgreen-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+#blank-inner .icon-phone-big { display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -75px 0;
+}
+#blank-inner .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -135px 0;
+}
+#blank-inner .contact-row .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top;  }
+#blank-inner .phone-number-big { color:#4a9be6; }
+#blank-inner .row-title { font-size:44px;}
+
+
+
+
+
+
+
+
+/*--------Bookkeeping Inner--------*/
+
+#bookkeeping_inner .section-title {color:#4a9be6;}
+#bookkeeping_inner .subnav a:hover {color:#4a9be6;}
+#bookkeeping_inner .subnav a.nav-selected {color:#4a9be6;}
+#bookkeeping_inner .sub-nav-area { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 0 0 0 0;}
+#bookkeeping_inner .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#bookkeeping_inner .baby-row {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding: 50px 0 0 0; padding-bottom:60px;}
+#bookkeeping_inner .baby-row-inner {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat; position:relative; padding-bottom:60px;}
+#bookkeeping_inner .bookkeeping-rotator {margin:0px 0px 40px; position:relative; width:960px; height:425px;}
+#bookkeeping_inner .bookkeepig-rotator img, .bookkeeping-rotator h2 { position:absolute; width:960px; top:0; left:0;}
+#bookkeeping_inner .bookkeeping-rotator h2 { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/bk_banner_overlay.png") repeat-x; height:97px; z-index:1000; line-height:97px; text-align:center; color:#fff; font-size:44px;}
+#bookkeeping_inner .bookkeeping-title h2 { width:300px; float:left; display:inline-block; color:#4a9be6; line-height:54px; }
+#bookkeeping_inner .bookkeeping-title p { float:left; display:inline-block; padding: 5px 50px; line-height:34px; width: 880px; }
+#bookkeeping_inner .bk-assistance { text-align:center; padding-bottom:20px; padding-top:10px;}
+#bookkeeping_inner .bk-assistance .arrow {display:inline-block; margin-top:55px;}
+#bookkeeping_inner .bk-assistance h2 { display:inline-block; padding:40px 20px; width: 960px;}
+#bookkeeping_inner .bk-assistance h3 { text-align:center; font-size:22px; color:#4a9be6; text-transform:none; padding:20px 30px; line-height:30px;}
+#bookkeeping_inner .assistance-left img, .assistance-right img{   -moz-box-shadow: 1px 2px 10px #CCC; behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc); }
+#bookkeeping_inner .assistance-right h3 {color:#afac11}
+#bookkeeping_inner .assistance-left { float:left; display:inline-block; width:430px; padding-right:25px; }
+#bookkeeping_inner .assistance-right { float:left; display:inline-block; width:480px; padding-left:25px; }
+#bookkeeping_inner .assistance-left .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/blue-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+#bookkeeping_inner .assistance-right .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightgreen-button-bg.jpg") repeat-x left top; padding:0px 60px;}
+#bookkeeping_inner .icon-phone-big { display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -75px 0;
+}
+#bookkeeping_inner .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_lightblue.png") no-repeat -135px 0;
+}
+#bookkeeping_inner .contact-row .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top;  }
+#bookkeeping_inner .phone-number-big { color:#4a9be6; }
+#bookkeeping_inner .row-title { font-size:44px;}
+
+
+
+/*--------Oil and Gas--------*/
+
+
+
+#og .subnav ul { width:620px; }
+#og .box-content {padding-bottom:50px;}
+.light-blue {color:#479ee5}
+.og-bg { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/grid_bg.jpg") repeat #ffffff; position:relative; margin:0 auto; height:100%; height:100%; }
+.og-rotator img {-moz-box-shadow: 1px 2px 10px #CCC; behavior: url(http://finleycook.phase2hosting.com/themes/finleycook/css/PIE.htc); margin-top:0px;}
+#og .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#og .section-title {color:#955600;}
+#og .subnav a:hover {color:#955600;}
+#og .subnav a.nav-selected {color:#955600;}
+
+.og-middlepage h2 {color:#955600; font-size:34px; padding: 30px 0 40px 0;}
+#og .og-middlepage .submit-button a { color:#fff; }
+.first-left {float: left; display:inline-block; width:275px; padding:25px 65px 0px 0px; line-height:25px;}
+.first-left img {margin-top:12px; width:265px;}
+.first-middle {float: left; display:inline-block; width:275px; padding:25px 0px 0px 0px; line-height:25px;}
+.first-right {float: left; display:inline-block; width:275px; padding:25px 0px 0px 65px; line-height:25px;}
+.first-content {margin-bottom: 40px;}
+.first-content h4 {color: #479ee5;font-size: 36px; font-weight: bold; font: helvectica;}
+#og .first-right .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top; padding: 0px 45px; margin-top:30px;}
+.gray-line {background:#ccc repeat-x; height:1px;}
+.middle-content {margin-bottom: 40px; margin-top:25px;}
+.middle-content h4 {color: #955600; font-size: 36px; font-weight: bold; font: helvectica; padding-bottom:25px;}
+.middle-content .second-middle {float:left; display: inline-block;}
+.middle-content .first-left {float: left; display:inline-block; width:275px; padding:0 65px 0px 0px; line-height:25px;}
+#og .middle-content .first-left .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/brown-button-bg.jpg") repeat-x left top; padding: 0px 45px; margin-top:35px;}
+.bottom-content h4 {color: #479ee5;font-size: 36px; font-weight: bold; font: helvectica;}
+.bottom-content .bottom-left {float: left; display:inline-block; width:275px; padding:25px 65px 0px 0px; line-height:25px;}
+.bottom-content .bottom-left img {margin-top:25px; width:265px;}
+.bottom-content .bottom-middle {float: left; display:inline-block; width:345px; padding:25px 0px 0px 0px; line-height:25px;}
+.bottom-content .bottom-right {float: left; display:inline-block; width:275px; padding:25px 0px 0px 65px; line-height:25px;}
+.bottom-content {margin-bottom: 40px; margin-top:25px;}
+#og .bottom-content .bottom-right .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top; padding: 0px 45px; margin-top:25px;}
+.bottom-content .bottom-right img {margin-top:12px;}
+#og .row-title {color: #955600; font-size:44px;}
+#og .icon-phone-big {display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_brown.png") no-repeat -75px 0;
+}
+#og .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_brown.png") no-repeat -135px 0;
+}
+#og .contact-row {padding-top:15px;}
+#og .contact-row .submit-button { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/brown-button-bg.jpg") repeat-x left top;  }
+#og .phone-number-big { color:#955600; }
+.contact-info { padding-bottom:100px; margin-top:25px; }
+
+#full li { margin-left:50px; padding:5px; }
+
+
+
+/*----------Tribal Government----------*/
+
+
+#tribal #inner .pattern .pattern-text h2 { color:#df1620; padding:40px 0 20px 0; }
+#tribal #inner .pattern .box-content h3 { color:#df1620; padding-bottom:15px; text-transform:none; font-size:18px;}
+#tribal .pattern .pattern-text { margin-top:45px; }
+#tribal .pattern .pattern-text h2 { padding-bottom:10px; }
+#tribal .pattern .submit-button a.text { color:#fff; }
+#tribal .casino-ad .submit-button a.text { color:#fff; }
+#tribal .shadow{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%;}
+#tribal span.section-title {color:#df1620;}
+.plains { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/tribal_blue_bg.jpg") repeat-x; position:relative; height:470px; padding-bottom:50px; z-index:1;}
+#tribal .green-plains{ background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/plains.png") no-repeat center center; height:196px; position:absolute; bottom:0px; width:100%; text-align:center; z-index:-1;}
+#tribal .video-text-column {color:#fff;}
+#tribal .video-text-column .box-title { color:#df1620;}
+#tribal .services-video-title { color:#fff;}
+.green-bar { height:6px; background:#95ef35; repeat-x; width:100%; margin:0; padding:0;}
+.pattern { position:relative; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/pattern.jpg") repeat; padding-bottom:60px;}
+.pattern .left, .pattern .middle {padding-right:60px;}
+.pattern .right, .pattern .middle, .pattern .left {display:inline-block; float:left; width:280px;}
+.pattern .row-title {color:#df1620; padding:40px 0px; text-align:center;}
+.pattern .box-content h3 { color:#df1620; padding-bottom:15px; text-transform:none; font-size:24px;}
+.pattern .box-content p {padding-bottom:20px;}
+.pattern .box-content .submit-button {}
+.pelt { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/pelt_bg.jpg") ; position: relative;}
+.left-pelt {width:650px; display:inline-block; float:left; padding-top:60px;}
+.left-pelt div {padding:0px 0px 60px 0px;}
+.left-pelt h2 { color:#FFC; padding-bottom:15px;}
+.left-pelt p {color:#fff; font-size:16px; line-height:30px; padding-bottom:10px;}
+.left-pelt a {color:#FFC; font-size:18px; font-weight:bold;}
+.pelt .box-content { position:relative;}
+.pelt img {position:absolute; right:-35px; bottom:0;}
+#tribal .yellow-bg .row-title { color:#df1620;}
+#tribal .yellow-bg .icon-phone-big {display: inline-block; width: 57px;height: 57px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_red.png") no-repeat -75px 0}
+#tribal .yellow-bg .phone-number-big { color:#df1620;}
+#tribal .yellow-bg .icon-email-big { display: inline-block; width: 66px; height: 42px; background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite_red.png") no-repeat -135px 0;}
+#tribal .yellow-bg { background:#FFC; position:relative;}
+#tribal .yellow-bg .submit-button {background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/red-button-bg.jpg") repeat-x left top; }
+.casino-ad {   background: #130f0d url("http://finleycook.phase2hosting.com/themes/finleycook/images/lights-row-1.jpg") no-repeat center bottom;
+  color: #fff;
+  padding-bottom: 0px;}
+
+.casino-ad h2 {color:#fff; font-size:44px; padding:40px 0px;}
+.casino-ad h3 {float:left; text-transform:none; font-size:24px; display:inline-block; padding-top:65px; line-height:36px; padding-bottom:20px;}
+.casino-ad img {float:left; display:inline-block;}
+.casino-ad .right-casino-ad {float:left; display:inline-block; width:500px; padding-left:65px;}
+
+
+/*-----Contact Form----*/
+
+#bookkeeping .formBlockSurveyTable { width:430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:15px; float:right; margin-left:55px; }
+#bookkeeping .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#bookkeeping .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#bookkeeping .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#bookkeeping .formBlockSurveyTable td.question { padding:0px; }
+#bookkeeping .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#bookkeeping .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#bookkeeping .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#bookkeeping .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#bookkeeping .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#bookkeeping .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#bookkeeping .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#bookkeeping .call-column { width: 400px; float: left; margin-top:30px; }
+
+#bookkeeping_inner .formBlockSurveyTable { width: 430px border-collapse: separate; border-spacing: 2px; display: table; padding-top:30px; float:left; margin-left:55px; }
+#bookkeeping_inner .formBlockSurveyTable tbody { position:absolute; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#bookkeeping_inner .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#bookkeeping_inner .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#bookkeeping_inner .formBlockSurveyTable td.question { padding:0px; }
+#bookkeeping_inner .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#bookkeeping_inner .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#bookkeeping_inner .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#bookkeeping_inner .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#bookkeeping_inner .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#bookkeeping_inner .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#bookkeeping_inner .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#bookkeeping_inner .call-column { width: 400px; float: left; margin-top:30px; }
+
+#tribal .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:15px; float:left; margin-left:55px; }
+#tribal .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#tribal .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#tribal .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#tribal .formBlockSurveyTable td.question { padding:0px; }
+#tribal .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#tribal .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#tribal .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/red-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#tribal .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#tribal .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#tribal .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#tribal .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#tribal .call-column { width: 400px; float: left; margin-top:30px; }
+
+#tribal #inner .box-content .call-column { width: 400px; float: left; margin:0px; }
+
+#software .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:10px; float:left; margin-left:55px; }
+#software .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#software .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#software .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#software .formBlockSurveyTable td.question { padding:0px; }
+#software .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#software .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#software .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightgreen-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#software .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#software .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#software .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#software .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#software .call-column { width: 400px; float: left; margin-top:30px; }
+
+
+
+#tax .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:30px; float:left; margin-left:55px; }
+#tax .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#tax .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#tax .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#tax .formBlockSurveyTable td.question { padding:0px; }
+#tax .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#tax .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#tax .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/darkblue-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#tax .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#tax .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#tax .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#tax .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#tax .call-column { width: 400px; float: left; }
+
+#casino .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:30px; float:left; margin-left:55px; }
+#casino .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#casino .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#casino .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#casino .formBlockSurveyTable td.question { padding:0px; }
+#casino .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#casino .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#casino .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/orange-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#casino .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#casino .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#casino .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#casino .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#casino .call-column { width: 400px; float: left; }
+#casino .contact-info { margin-top:45px; }
+
+#audit .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:30px; float:left; margin-left:68px; }
+#audit .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#audit .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#audit .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#audit .formBlockSurveyTable td.question { padding:0px; }
+#audit .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#audit .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#audit .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#audit .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#audit .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#audit .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#audit .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#audit .call-column { width: 400px; float: left; }
+#audit .contact-info { margin-top:45px; }
+
+#audit_inner .formBlockSurveyTable { width: 430px; border-collapse: separate; border-spacing: 2px; display: table; padding-top:30px; float:left; margin-left:57px; }
+#audit_inner .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#audit_inner .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 40px; font-family:Arial; }
+#audit_inner .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#audit_inner .formBlockSurveyTable td.question { padding:0px; }
+#audit_inner .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#audit_inner .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#audit_inner .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/lightblue-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#audit_inner .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:195px; padding-left:10px; }
+#audit_inner .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#audit_inner .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#audit_inner .formBlockSurveyTable td textarea { margin-bottom:15px; margin-right:15px; }
+#audit_inner .call-column { width: 400px; float: left; }
+#audit_inner .contact-info { margin-top:45px; }
+
+#og .formBlockSurveyTable { width: 430px border-collapse: separate; border-spacing: 2px; display: table; padding-top:10px; float:left; margin-left:55px; }
+#og .formBlockSurveyTable tbody { position:relative; line-height: 0px; width: 450px; display: table-row-group; vertical-align: middle;}
+#og .formBlockSurveyTable tr { float:left; display: inline-block; vertical-align: inherit; color: #8d8d8d; font-size:12px; font-weight:bold; margin-bottom: 50px; font-family:Arial; }
+#og .formBlockSurveyTable td { display: table-cell; text-align: inherit; vertical-align: inherit; }
+#og .formBlockSurveyTable td.question { padding:0px; }
+#og .formBlockSurveyTable td input { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/sprite.png") no-repeat -72px -70px; border: none; height: 47px; width: 200px; }
+#og .formBlockSurveyTable label { cursor: default; position: absolute; margin-left:5px; margin-top:30px; }
+#og .formBlockSurveyTable td input[type="submit"] { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/brown-button-bg.jpg") repeat-x left top ; border-radius:3px; box-shadow:0 0 10px #999; color:white; font-size:18px; font-weight: bold; height:42px; text-align:center; width:125px;}
+#og .formBlockSurveyTable td input[type="text"] { color:#fff; font-size:14px; width:194px; padding-left:10px; }
+#og .formBlockSurveyTable td input[type="email"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#og .formBlockSurveyTable td input[type="tel"] { color:#fff; font-size:14px; width:185px; padding-left:10px; }
+#og .formBlockSurveyTable td textarea { margin-bottom:15px; }
+
+
+.formBlockSurveyTable tr { float: left; height: 47px;}
+
+
+/*-----Consulting----*/
+
+#consulting .shadow {  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%; }
+#consulting span.section-title {color:#AFAC11;}
+#consulting .subnav a:hover {color:#AFAC11;}
+#consulting .diagonal-bg { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_diagonal_bg.jpg") repeat; position:relative; }
+.consulting-top-row { padding:40px 0px;}
+.consulting-title { position:relative; width:430px; display:inline-block; float:left; padding-right:65px; padding-left:10px; padding-top:10px;}
+.consulting-title h2 { font-size:30px; float:left;  display:inline-block;}
+.consulting-video { float:left; display:inline-block; width:325px;}
+.consulting-banner-bg { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_lower_banner_bg.jpg") repeat-x; height:179px; }
+.consulting-banner h2 {font-size:36px; width:220px; float:left; display:inline-block; color:#afac11;  padding:35px 0px; line-height:40px;}
+.consulting-banner p {font-size:18px; padding:30px 0px 0px 0px; line-height:32px;}
+#consulting .expertise { background-color:#afac11; height:15px; }
+
+.grunge-bg {  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_texture_bg.jpg") repeat; position:relative; padding-bottom:80px; }
+.grunge-bg .row-title { color:#afac11; font-size:36px; text-align:center; padding-bottom:0px; padding-top:40px;}
+.grunge-bg .person-left { padding-right:50px;}
+.grunge-bg .person-left, .grunge-bg .person-right {width:455px; float:left; display:inline-block;}
+.grunge-bg h2 { font-size: 20px; font-weight:bold; color:#666; font-family:Arial, Helvetica, sans-serif; font-style:normal; line-height:28px;}
+.grunge-bg h3 {font-size: 18px; font-weight:normal; color:#666; text-transform:none; font-style:italic; padding-top:0px; }
+.grunge-bg a { font-size:14px; font-weight:bold; float:left; display:inline; padding-right:60px;}
+.grunge-bg h4 {font-size:14px; font-weight:bold; float:left; display:inline; }
+.grunge-bg p { font-size:16px; padding-bottom:10px;}
+.grunge-bg img { padding:45px 0px 20px;}
+.grunge-bg .email { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/small_mail.png") no-repeat; width:25px; height:15px; display:inline-block; padding-right:10px; float:left; margin-top:7px;}
+.grunge-bg .phone { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/small_phone.png") no-repeat; width:23px; height:23px; display:inline-block; padding-right:10px; float:left; margin-top:3px;}
+
+
+/*-----Consulting Inner----*/
+
+#consulting_inner .shadow {  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/industry_shadow_top.png") repeat-x; height:15px; position:absolute; left:0; top:0px; width:100%; }
+#consulting_inner .subnav span.section-title a {color:#AFAC11;}
+#consulting_inner .subnav .nav a:hover {color:#AFAC11;}
+#consulting_inner .subnav .nav a.nav-selected {color:#AFAC11;}
+#consulting_inner .diagonal-bg { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_diagonal_bg.jpg") repeat; position:relative; }
+#consulting_inner .consulting-top-row { padding:40px 0px;}
+#consulting_inner .consulting-title { position:relative; width:430px; display:inline-block; float:left; padding-right:65px; padding-left:10px; padding-top:10px;}
+#consulting_inner .consulting-title h2 { font-size:36px; float:left;  display:inline-block;}
+#consulting_inner .consulting-video { float:left; display:inline-block; width:325px;}
+#consulting_inner .consulting-banner-bg { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_lower_banner_bg.jpg") repeat-x; height:179px; }
+#consulting_inner .consulting-banner h2 {font-size:36px; width:220px; float:left; display:inline-block; color:#afac11;  padding:35px 0px; line-height:40px;}
+#consulting_inner .consulting-banner p {font-size:18px; padding:30px 0px 0px 0px; line-height:32px;}
+#consulting_inner .expertise { background-color:#afac11;}
+
+#consulting_inner .grunge-bg {  background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/consulting_texture_bg.jpg") repeat; position:relative; padding-bottom:80px; }
+#consulting_inner .grunge-bg .row-title { color:#afac11; font-size:36px; text-align:center; padding-bottom:0px; padding-top:40px;}
+#consulting_inner .grunge-bg .person-left { padding-right:50px;}
+#consulting_inner .grunge-bg .person-left, .grunge-bg .person-right {width:455px; float:left; display:inline-block;}
+#consulting_inner .grunge-bg h2 { font-size: 20px; font-weight:bold; color:#666; font-family:Arial, Helvetica, sans-serif; font-style:normal; line-height:28px;}
+#consulting_inner .grunge-bg h3 {font-size: 18px; font-weight:normal; color:#666; text-transform:none; font-style:italic; padding-top:0px; }
+#consulting_inner .grunge-bg a { font-size:14px; font-weight:bold; float:left; display:inline; padding-right:60px;}
+#consulting_inner .grunge-bg h4 {font-size:14px; font-weight:bold; float:left; display:inline; }
+#consulting_inner .grunge-bg p { font-size:16px; padding-bottom:10px;}
+#consulting_inner .grunge-bg img { padding:45px 0px 20px;}
+#consulting_inner .grunge-bg .email { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/small_mail.png") no-repeat; width:25px; height:15px; display:inline-block; padding-right:10px; float:left; margin-top:7px;}
+#consulting_inner .grunge-bg .phone { background: url("http://finleycook.phase2hosting.com/themes/finleycook/images/small_phone.png") no-repeat; width:23px; height:23px; display:inline-block; padding-right:10px; float:left; margin-top:3px;}
+
+#consulting_inner .software-ad { padding-top: 20px; padding-bottom: 20px; }
+
+/*----Casino----*/
+
+#casino .orange-row-top h2 { color:#fff; padding-top:60px; padding-bottom:10px;}
+#casino .orange-row-top {padding-bottom:90px;}
+.orange-row-top .row-title, .lights-row-2 .row-title {color:#fff;}
+#casino .text-box h2 { font-size:30px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#fff; font-style:normal; }
+#casino .two-cols h2 { padding:0px; font-size:25px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#fff; font-style:normal; }
+#casino .two-cols img { float:left; }
+#casino .video-box { background:none; padding-top:0px; padding-bottom:60px; }
+
+/*-----Sub Nav Colors------*/
+
+#tribal .subnav .section-title a { color:#df1620;}
+#tribal .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#tribal .subnav ul li a:hover {color:#df1620;}
+#tribal .subnav ul li a.nav-selected {color:#df1620;}
+
+#software .subnav .section-title a {color:#afac11;}
+#software .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#software .subnav .nav a:hover {color:#afac11;}
+#software .subnav ul li a.nav-selected { color:#afac11; }
+
+
+#audit .subnav .section-title a { color:#4a9be6;}
+#audit .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#audit .subnav ul li a:hover {color:#4a9be6;}
+
+#tax .subnav .section-title a { color:#005e95;}
+#tax .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#tax .subnav .nav a:hover {color:#005e95;}
+#tax .subnav .nav a.nav-selected {color:#005e95;}
+
+#bookkeeping .subnav .section-title a { color:#479ee5;}
+#bookkeeping .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#bookkeeping .subnav .nav a:hover {color:#479ee5;}
+
+#consulting .subnav .section-title a { color:#AFAC11;}
+#consulting .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#consulting .subnav .nav a:hover {color:#AFAC11;}
+
+#og .subnav .section-title a { color:#955600;}
+#og .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#og .subnav .nav a:hover {color:#955600;}
+
+#casino .subnav .section-title a { color:#e28200;}
+#casino .subnav .section-title a:hover {color:#818080; text-decoration:none;}
+#casino .subnav .nav a:hover {color:#e28200;}
+#casino .subnav .nav a.nav-selected {color:#e28200;}
+
+
+
+.ui-tabs .ui-tabs-panel { padding:0; }
+.ui-dialog h2 { font-size: 20px; font-style:none; }
+
+/*.c5mix-featured-slider-dark .ui-tabs-panel { background:transparent; }*/
+
+#c5mix-featured-slider-390 { width:275px;  height:335px; background:transparent; padding-left:6px; }
+#c5mix-featured-slider-390 ul.ui-tabs-nav { display:none; }
+#c5mix-featured-slider-390 .c5mix-featured-slider-info { height:130px; width:275px; }
+
+/*.c5mix-featured-slider-dark { width:275px;  height:335px; background:transparent; padding-left:6px;}*/
+/*.c5mix-featured-slider-dark ul.ui-tabs-nav { display:none; }*/
+/*.c5mix-featured-slider-info { height:130px; width:275px; }*/
+
+/*.c5mix-featured-slider-dark .c5mix-featured-slider-info h2 { font-size: 19px; font-family: 'Times New Roman'; font-weight: 400; line-height: 1.15em; color: white; padding: 5px 7px 4px; margin: 0; overflow: hidden; }*/
+
+#og .green-crp { width:388px; }
+#og .green-crp a.button { text-align:center; padding-left:40px; }
+
+.c5mix-featured-slider-dark { 
+  background:transparent;
+  width:275px; 
+  padding-left:6px; 
+  position:relative; 
+  /*border:1px solid #000;*/ 
+  height:335px; 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+.c5mix-featured-slider-dark a {
+  text-decoration:none;
+}
+.c5mix-featured-slider-dark ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+.c5mix-featured-slider-dark ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+.c5mix-featured-slider-dark ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+.c5mix-featured-slider-dark ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+.c5mix-featured-slider-dark li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+.c5mix-featured-slider-dark li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+.c5mix-featured-slider-dark li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+.c5mix-featured-slider-dark ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+.c5mix-featured-slider-dark .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+.c5mix-featured-slider-dark .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  overflow:hidden; 
+}
+.c5mix-featured-slider-dark .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 7px 0px;
+  margin:0;
+  overflow:hidden; 
+}
+.c5mix-featured-slider-dark .c5mix-featured-slider-info p { 
+  margin:0 7px; 
+  font-family:Arial;
+  font-size:11px; 
+  /*line-height:15px;*/
+  color:#f0f0f0;
+}
+.c5mix-featured-slider-dark .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff; 
+}
+.c5mix-featured-slider-dark .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+.c5mix-featured-slider-dark .ui-tabs-hide { 
+  display:none; 
+}
+.c5mix-featured-slider-dark a img {
+  border:none;
+}
+
+
+
+/*====CONTENT SLIDER LIGHT====*/ 
+
+.c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+.c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+.c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+.c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+.c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+.c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+.c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+.c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+.c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+.c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+.c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+.c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  top:5px;
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  overflow:hidden;
+  height:150px;
+  margin:50px 0 0 15px; 
+}
+.c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+.c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  margin:0 7px; 
+  font-family:Arial;
+  font-size:11px; 
+  /*line-height:15px;*/
+  color:#f0f0f0;
+}
+.c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff; 
+  margin:0 auto;
+}
+
+.c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+}
+
+.c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+.c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+.c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:382px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+.c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+
+
+
+
+
+
+/*====casino team list=====*/
+
+
+
+
+#casino .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#casino .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#casino .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#casino .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#casino .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#casino .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#casino .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#casino .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#casino .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#casino .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#casino .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#casino .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:125px;
+  margin:0px 0 0 15px;
+  position:static;
+}
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:0px 0 0px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  display:none;
+}
+
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff;
+  height:25px;
+  margin:0 auto;
+  padding:0px;
+}
+
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+  float:left;
+}
+
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#casino .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#casino .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:400px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#casino .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+#casino .orange-row .box-content .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info a h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+#casino .orange-row .box-content .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+  width:auto;
+  position:static;
+}
+
+
+
+
+
+
+
+/*====tribal team list====*/
+
+#tribal .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#tribal .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#tribal .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#tribal .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#tribal .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#tribal .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#tribal .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#tribal .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#tribal .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#tribal .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#tribal .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#tribal .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:115px;
+  margin:0px 0 0 15px;
+  position:static;
+}
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  display:none;
+}
+
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff;
+  height:25px;
+  margin:0 auto;
+  padding:0px;
+}
+
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+  float:left;
+}
+
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#tribal .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#tribal .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:382px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#tribal .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+#tribal #inner .pattern .pattern-text .box-content .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+#tribal #inner .pattern .pattern-text .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+  width:auto;
+}
+
+#tribal #inner .c5mix-featured-slider-light .ui-tabs-hide {
+  height:400px;
+}
+
+
+
+/* =========og team list ===========*/
+
+
+
+
+#og .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:inherit; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#og .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#og .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#og .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#og .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#og .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#og .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#og .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#og .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#og .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#og .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#og .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:50px;
+  margin:0px 0 0 15px;
+  position:relative;
+  overflow:visible;
+}
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:0px 0 0px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  display:none;
+}
+
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff;
+  height:20px;
+  margin:0 auto;
+  padding:0px;
+}
+
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+}
+
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#og .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#og .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:390px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#og .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+
+
+/* =========audit inner team list=========== */
+
+
+
+
+
+#audit_inner .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#audit_inner .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#audit_inner .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#audit_inner .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#audit_inner .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#audit_inner .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#audit_inner .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#audit_inner .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#audit_inner .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#audit_inner .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#audit_inner .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#audit_inner .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:110px;
+  margin:0px 0 0 15px;
+  position:static;
+}
+
+#audit_inner .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  display:none;
+}
+
+#audit_inner .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff;
+  height:25px;
+  margin:0 auto;
+  padding:0px;
+}
+
+#audit_inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+  float:left;
+}
+
+#audit_inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#audit_inner .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#audit_inner .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:382px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#audit_inner .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+#audit_inner .banner-content-area .main-content-area .box-content .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:0px 0 0px 7px;
+  margin:0;
+}
+#audit_inner .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+  width:auto;
+}
+
+#audit_inner .banner-content-area .main-content-area .box-content .c5mix-featured-slider-light .info-box {
+  margin-left: 7px;
+  color:white;
+  padding:0px;
+}
+
+#audit_inner .banner-content-area .main-content-area .box-content .c5mix-featured-slider-light .info-box-inner {
+  line-height:20px;
+  margin-top:5px;
+}
+
+
+
+
+/* =========tax inner team list=========== */
+
+
+
+#tax #inner .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#tax #inner .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#tax #inner .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#tax #inner .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#tax #inner .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#tax #inner .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#tax #inner .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#tax #inner .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#tax #inner .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#tax #inner .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#tax #inner .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#tax #inner .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:125px;
+  margin:0px 0 0 15px;
+  position:static;
+}
+
+#tax #inner .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  display:none;
+}
+
+#tax #inner .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff;
+  height:25px;
+  margin:0 auto;
+  padding:0px;
+}
+
+#tax #inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+  float:left;
+}
+
+#tax #inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#tax #inner .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#tax #inner .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:400px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#tax #inner .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+#tax #inner .c5mix-featured-slider-light .info-box {
+  margin-left: 7px;
+  color:white;
+  padding:0px;
+}
+
+#tax #inner .c5mix-featured-slider-light .info-box-inner {
+  line-height:20px;
+  margin-top:5px;
+}
+
+#tax #inner .baby-row .box-content .taxes-ad-alt .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+#tax #inner .baby-row .box-content .taxes-ad-alt .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+  width:auto;
+  position:static;
+}
+#tax #inner .baby-row .box-content .taxes-ad-alt .c5mix-featured-slider-light p {
+  padding:0;
+}
+
+
+
+/* =========software inner team list=========== */
+
+
+
+#software #inner .c5mix-featured-slider-light { 
+  background:transparent;
+  width:800px; 
+  padding-left:6px; 
+  border:none;
+  box-shadow:none;
+  position:relative;
+  height:375px; 
+  /*border:1px solid #000;*/ 
+  /*box-shadow:0 0 10px #333;*/
+  /*-moz-box-shadow:0 0 10px #333;
+  -webkit-box-shadow:0 0 10px #333;*/
+  /* For IE 8 */
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666')";*/
+  /* For IE 5.5 - 7 */
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#666666');*/
+}
+#software #inner .c5mix-featured-slider-light a {
+  text-decoration:none;
+}
+#software #inner .c5mix-featured-slider-light ul.ui-tabs-nav { 
+  /*position:absolute; 
+  top:5px;
+  left:405px; 
+  list-style:none; 
+  padding:0;
+  margin:0; 
+  width:250px;*/
+  display: none;
+}
+#software #inner .c5mix-featured-slider-light ul.ui-tabs-nav li {
+  margin:0;
+  padding:0 0 0 13px;  
+  font-size:12px; 
+  color:#666;
+  overflow:hidden;
+  float:none;
+  white-space:normal;
+  top:0!important;
+  box-shadow:none;
+}
+#software #inner .c5mix-featured-slider-light ul.ui-tabs-nav li img {
+  background:#ccc;
+  float:left;
+  margin:2px 5px; 
+  padding:2px; 
+  /*border:1px solid #333;*/
+  box-shadow:0 0 4px #222;
+  -moz-box-shadow:0 0 4px #222;
+  -webkit-box-shadow:0 0 4px #222;
+}
+#software #inner .c5mix-featured-slider-light ul.ui-tabs-nav li p { 
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding:2px 5px 0 0; 
+}
+#software #inner .c5mix-featured-slider-light li.ui-tabs-nav-item a {
+  background:#222;
+  display:block; 
+  height:60px; 
+  color:#bbb;
+  line-height:20px;
+  text-decoration:none;
+  padding:4px 0;
+  float:none;
+  text-shadow:none;
+}
+#software #inner .c5mix-featured-slider-light li.ui-tabs-nav-item a:hover { 
+  background:#333; 
+  color:#ddd;
+}
+#software #inner .c5mix-featured-slider-light li.ui-tabs-selected { 
+  background:url('http://finleycook.phase2hosting.com/themes/finleycook/images/selected-item.png') center left no-repeat!important;
+  padding-bottom:0!important;  
+}
+#software #inner .c5mix-featured-slider-light ul.ui-tabs-nav li.ui-tabs-selected a { 
+  background:#555;
+  color:#fff; 
+}
+#software #inner .c5mix-featured-slider-light .ui-tabs-panel { 
+  width:400px;
+  height:275px; 
+  background:transparent;
+  position:relative;
+  padding:0!important;
+}
+#software #inner .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info {
+  background: url('http://finleycook.phase2hosting.com/themes/finleycook/images/transparent-bg.png');
+  /*position:absolute; */
+  /*top:205px;*/
+  left:0; 
+  /*height:70px;*/
+  /*width:400px;*/
+  /*height: 130px;*/
+  width: 275px;
+  height:115px;
+  margin:0px 0 0 15px; 
+  position:static;
+}
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:5px 0 10px 7px;
+  margin:0;
+  overflow:hidden; 
+}
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info p { 
+  margin:0 7px; 
+  font-family:Arial;
+  font-size:11px; 
+  /*line-height:15px;*/
+  color:#f0f0f0;
+}
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info a { 
+  text-decoration:none; 
+  color:#fff; 
+  margin:0 auto;
+}
+
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner a {
+  margin:0 auto;
+  float:left;
+}
+
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info .info-box-inner .icon-phone {
+  position:relative;
+  padding:0px;
+}
+
+#software #inner .c5mix-featured-slider-light .c5mix-featured-slider-info a:hover { 
+  text-decoration:underline; 
+}
+#software #inner .c5mix-featured-slider-light .ui-tabs-hide { 
+  background:url("http://finleycook.phase2hosting.com/themes/finleycook/images/black-box-bg.gif") repeat scroll left top #2F2F2F;
+  display:block;
+  float:left;
+  height:400px;
+  margin:50px 0 50px 85px;
+  width:315px; 
+}
+#software #inner .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+}
+
+#software #inner .c5mix-featured-slider-light .info-box {
+  margin-left: 7px;
+  color:white;
+  padding:0px;
+  height:25px;
+}
+
+#software #inner .c5mix-featured-slider-light .info-box-inner {
+  line-height:20px;
+  margin-top:5px;
+  position:relative;
+  width:275px;
+}
+
+#software #inner .white-bottom .c5mix-featured-slider-light .ui-tabs-panel .c5mix-featured-slider-info a h2 { 
+  font-size:19px;
+  font-family: 'Times New Roman', arial, serif;
+  font-weight:400;
+  /*line-height:1.15em;*/
+  color:#fff;
+  padding:0px 0px 0px 7px;
+  margin:0 auto;
+}
+#software #inner .white-bottom .box-content .software-inner-main .c5mix-featured-slider-light a img {
+  border:none;
+  padding:32px 20px;
+  width:auto;
+  position:static;
+}
+
+
+
+.c5mix-featured-slider-light .info-box {
+  margin-left: 7px;
+  color:white;
+  padding:0px;
+  padding-right:20px;
+  width:265px;
+  height:30px;
+}
+
+.c5mix-featured-slider-dark .info-box {
+  margin-left: 7px;
+  color:white;
+  padding:0px;
+  padding-right:20px;
+  width:265px;
+  height:30px;
+  position:absolute;
+}
+
+.info-box a { display:inline-block; }
+
+
+.info-box-inner {
+  position:relative;
+  width:280px;
+  height:105px;
+  display:inline-block;
+}
+
+br {
+  clear: both;
+}
+
+#industries-more-info a {
+  font-size: 125%;
+}
+
+.toolbox { 
+  margin:0 auto;
+  list-style:none;
+ }
+
+.toolbox ul {
+  list-style:none;
+ }
+
+.toolbox ul li {
+  background-image:url('http://finleycook.phase2hosting.com/themes/finleycook/images/tools-icon.png');
+  margin:0 auto;
+  background-position:0 .5em;
+  background-repeat:no-repeat;
+  padding-left:10px;
+  height:35px;
+  line-height:30px;
+  padding:5px 0 0 40px;
+ }
+
+.toolbox ul li a {
+  color:#ffffff;
+
+}
+
+.jbCarousel {
+  margin-top:50px;
+  height:180px;
+}
+
+.plainlarge .jbCarousel .desccat {
+  font-size:32px;
+  line-height:40px;
+}
+
+.plainlarge .jbCarousel .dyImg {
+  height:200px;
+}
+
+.jbCarousel img {
+  display:none;
+}
+
+#full { margin:0 auto; overflow:v; }

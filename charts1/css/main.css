@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Slider styles */
+.sl-intro, .sl-main {
+    overflow: hidden;
+    padding: 0px;
+}
+
+/* jcarousel styles */
+#sl-thumbs li {
+    cursor: pointer;
+}
+
+#sl-thumbs li img {
+    height: 400px;
+    padding: 2px;
+    width: 450px;
+}
+.jcarousel-container {
+    margin: 10px 0;
+    padding: 0 0px;
+}
+
+.jcarousel-prev-horizontal, .jcarousel-next-horizontal {
+    border: 1px solid white;
+    cursor: pointer;
+    height: 49px;
+    position: absolute;
+    top: 25px;
+    width: 18px;
+    z-index: 1;
+
+    /* CSS3 round border and shadow */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 1px 2px 0 rgba(119, 119, 119, .5);
+    -moz-box-shadow: 0 1px 2px 0 rgba(119,119,119,.5);
+    box-shadow: 0 1px 2px 0 rgba(119, 119, 119, .5);
+}
+.jcarousel-prev-horizontal {
+    left: 8px;
+    background:url(sprite.png) no-repeat -165px 3px, -moz-linear-gradient(top,white 0,#EDEDED 100%);
+    background:url(sprite.png) no-repeat -165px 3px, -webkit-linear-gradient(top,white 0,#EDEDED 100%);
+    background:url(sprite.png) no-repeat -165px 3px #EDEDED;
+}
+.jcarousel-next-horizontal {
+    right: 10px;
+    background: url(sprite.png) no-repeat -215px 3px,-moz-linear-gradient(top,white 0,#EDEDED 100%);
+    background: url(sprite.png) no-repeat -215px 3px,-webkit-linear-gradient(top,white 0,#EDEDED 100%);
+    background: url(sprite.png) no-repeat -215px 3px #EDEDED;
+}
+.jcarousel-prev-horizontal:hover, 
+.jcarousel-prev-horizontal:focus {
+    background:url(sprite.png) no-repeat -165px -97px,-moz-linear-gradient(top,#EDEDED 0,white 100%);
+    background:url(sprite.png) no-repeat -165px -97px,-webkit-linear-gradient(top,#EDEDED 0,white 100%);
+    background:url(sprite.png) no-repeat -165px -97px #EDEDED;
+}
+.jcarousel-prev-horizontal:active {
+    background:url(sprite.png) no-repeat -165px 3px,-moz-linear-gradient(top,white 0,#EDEDED 100%);
+    background:url(sprite.png) no-repeat -165px 3px,-webkit-linear-gradient(top,white 0,#EDEDED 100%);
+    background:url(sprite.png) no-repeat -165px 3px #EDEDED;
+}
+.jcarousel-prev-disabled-horizontal,
+.jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background:url(sprite.png) no-repeat -165px -197px,-moz-linear-gradient(top,rgba(255, 255, 255, 0.5) 0,rgba(237, 237, 237, 0.5) 100%);
+    background:url(sprite.png) no-repeat -165px -197px,-webkit-linear-gradient(top,rgba(255, 255, 255, 0.5) 0,rgba(237, 237, 237, 0.5) 100%);
+    background:url(sprite.png) no-repeat -165px -197px #EDEDED;
+}
+.jcarousel-next-horizontal:hover,
+.jcarousel-next-horizontal:focus {
+    background:url(sprite.png) no-repeat -215px -97px,-moz-linear-gradient(top,#EDEDED 0,white 100%);
+    background:url(sprite.png) no-repeat -215px -97px,-webkit-linear-gradient(top,#EDEDED 0,white 100%);
+    background:url(sprite.png) no-repeat -215px -97px #EDEDED;
+}
+.jcarousel-next-horizontal:active {
+    background: url(sprite.png) no-repeat -215px 3px,-moz-linear-gradient(top,white 0,#EDEDED 100%);
+    background: url(sprite.png) no-repeat -215px 3px,-webkit-linear-gradient(top,white 0,#EDEDED 100%);
+    background: url(sprite.png) no-repeat -215px 3px #EDEDED;
+}
+.jcarousel-next-disabled-horizontal,
+.jcarousel-next-disabled-horizontal:hover,
+.jcarousel-next-disabled-horizontal:focus,
+.jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background:url(sprite.png) no-repeat -215px -197px, -moz-linear-gradient(top,rgba(255, 255, 255, 0.5) 0,rgba(237, 237, 237, 0.5) 100%);
+    background:url(sprite.png) no-repeat -215px -197px, -webkit-linear-gradient(top,rgba(255, 255, 255, 0.5) 0,rgba(237, 237, 237, 0.5) 100%);
+    background:url(sprite.png) no-repeat -215px -197px #EDEDED;
+}
