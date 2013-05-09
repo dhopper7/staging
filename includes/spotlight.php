@@ -183,7 +183,7 @@ if($currentRow['!ows_Game_Date'] != "") { ?>
 	</tr>
     <tr>
     	<td width="20%"><span style="float: left;">Game Date:</span>
-    	  <input style="border: 1px #000 solid; width: 150px; display: block; float: left; text-align: center;" type="date" value="<?php echo date('m/d/Y',strtotime($currentRow['!ows_Game_Date'])); ?>" name="datepicker" id="spotdatepicker" maxlength="10" />
+    	  <input style="border: 1px #000 solid; width: 150px; display: block; float: left; text-align: center;" value="<?php echo date('m/d/Y',strtotime($currentRow['!ows_Game_Date'])); ?>" name="datepicker" id="spotdatepicker" maxlength="10" />
     	</td>
         <td class="spotText" style="border: #000 1px solid;" width="40%" rowspan="3"><?php echo @$currentRow['!ows_Comment']; ?>&nbsp;</td> 
       <td id="spotImage" width="40%" rowspan="3">&nbsp;</td>
